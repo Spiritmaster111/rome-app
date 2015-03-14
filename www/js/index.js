@@ -1,5 +1,8 @@
-var previousPage;
 var currentPage;
+var subHeadTxt = {
+	agenda: "Dagagenda voor 3-14-2015",
+	contact: "Contactgegevens"
+};
 var app = {
 	
     // Application Constructor
@@ -21,17 +24,7 @@ var app = {
     // Triggered when the device is ready.
     onDeviceReady: function() {
         app.setSizes();
-        app.loadMainPage();
-    },
-    
-    // Load Main Page
-    //
-    // Sets display of the main page to 'block'.
-    loadMainPage: function() {
-    	var mainPage = document.getElementById('main-page');
-    	
-    	mainPage.style.display = 'block';
-    	currentPage = mainPage;
+        currentPage = document.getElementById('agenda');
     },
     
     // Switch Pages
@@ -39,6 +32,7 @@ var app = {
     // Unloads current page and loads up new page.
     pageSwitch: function(page, resetZoom) {
     	var pageToLoad = document.getElementById(page);
+    	var subHead = document.getElementById('sub-head');
     	
     	if (resetZoom) {
     		viewport.content = "user-scalable=1, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi";
@@ -46,6 +40,7 @@ var app = {
     	
     	currentPage.style.display = 'none';
     	pageToLoad.style.display = 'block';
+    	subHead.innerHTML = subHeadTxt[page];
     	
     	currentPage = pageToLoad;
     },

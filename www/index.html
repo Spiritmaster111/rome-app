@@ -7,109 +7,31 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta id="viewport" name="viewport" content="user-scalable=1, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div id="main-page" class="page">
-        	<div class="header">
-        		<h2><b>Home Page</b></h2>
-        	</div>
-        	<div class="body">
-        		<img src="img/rome-logo.png" width="150px">
-        		<p id="intro">Welcome to the rome app 2015 made by the informatica students. This app will contain a lot of things that are gonna be usefull. That includes this long intro, because it's used to see how well things wrap in our app. Thank you for your time and patience and we hope you'll enjoy yourself! (This sort of long text should be stored in a different way btw)</p>
-			</div>
-			<div class="page-btn" onclick="app.pageSwitch('page-activities')">
-				<b>Activities</b>
-			</div>
-			<div class="page-btn">
-				<b>Map</b>
-			</div>
-			<div class="page-btn">
-				<b>Contact</b>
-			</div>
-        </div>
-        <div id="page-activities" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('main-page')">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>Activities</b></h2>
-        	</div>
-			<div class="activity" onclick="app.pageSwitch('page-activity-kerk1')">
-				<p>Kerk 1 - 14-02-2015, 13:00</p>
-			</div>
-			<div class="activity" onclick="app.pageSwitch('page-activity-kerk2')">
-				<p>Kerk 2 - 14-02-2015, 16:00</p>
-			</div>
-			<div class="activity" onclick="app.pageSwitch('page-activity-kerk3')">
-				<p>Kerk 3 - 15-02-2015, 09:00</p>
-			</div>
-        </div>
-        <div id="page-activity-kerk1" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('page-activities')">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>Kerk 1</b></h2>
-        	</div>
-			<div class="body">
-				<img src="img/Kropswolde_Kerk.png" onclick="app.openIMG('img-kerk1')" height="150px">
-				<p>All sorts of info...</p>
-			</div>
-        </div>
-        <div id="page-activity-kerk2" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('page-activities')">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>Kerk 2</b></h2>
-        	</div>
-			<div class="body">
-				<img src="img/Hervormde_Kerk_Schipluiden.png" onclick="app.openIMG('img-kerk2')" height="150px">
-				<p>Look, it's a church!</p>
-			</div>
-        </div>
-		<div id="page-activity-kerk3" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('page-activities')">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>Kerk 3</b></h2>
-        	</div>
-			<div class="body">
-				<img src="img/DSC03144-rk-kerk-ltjbrk-2012-jo.png" onclick="app.openIMG('img-kerk3')" height="150px">
-				<p>Info, info and even more info.</p>
-			</div>
-        </div>
-        <div id="page-img-kerk1" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('page-activity-kerk1', true)">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>IMG: Kerk 1</b></h2>
-        	</div>
-        	<img src="img/Kropswolde_Kerk.png" id="img-kerk1" class="big-img"></img>
-        </div>
-        <div id="page-img-kerk2" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('page-activity-kerk2', true)">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>IMG: Kerk 2</b></h2>
-        	</div>
-        	<img src="img/Hervormde_Kerk_Schipluiden.png" id="img-kerk2" class="big-img"></img>
-        </div>
-        <div id="page-img-kerk3" class="page">
-        	<div class="header">
-        		<div class="btn back" onclick="app.pageSwitch('page-activity-kerk3', true)">
-        			<b>Back</b>
-        		</div>
-        		<h2><b>IMG: Kerk 3</b></h2>
-        	</div>
-        	<img src="img/DSC03144-rk-kerk-ltjbrk-2012-jo.png" id="img-kerk3" class="big-img"></img>
-        </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <!--script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.2.js"></script-->
+        <title>Rome App 2015</title>
+    </head>
+    <body>
+		<div id="head">
+			<div class="tab selected" onclick="app.pageSwitch('agenda')">
+				Agenda
+			</div>
+			<div class="tab" onclick="app.pageSwitch('contact')">
+				Contact
+			</div>
+		</div>
+		<div id="sub-head">
+			Dagagenda voor 3-14-2015
+		</div>
+		<div class="page" id="agenda">
+			<p>Bla Bla bla</p>
+			<p>paragraph</p>
+		</div>
+		<div class="page" id="contact">
+			<p>06123455785432983452724</p>
+		</div>
         <script type="text/javascript">
             app.initialize();
         </script>

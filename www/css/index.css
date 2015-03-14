@@ -2,7 +2,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
+    background-color:#BBBBBB;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -16,146 +16,46 @@ body {
 	display:none;
 }
 
-.header {
-	background-color: #242424;
-	background-image: linear-gradient(to bottom, #242424, #141414);
-        background-image:-webkit-linear-gradient(top, #242424 0%, #141414 51%);
-        background-image:-ms-linear-gradient(top, #242424 0%, #141414 51%);
-        background-image:-webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #242424),
-            color-stop(0.51, #141414)
-        );
-	border: 1px solid black;
-	padding:0px;
-}
-
-.header h2 {
-	margin:0.5em;
-	text-align:center;
-	color: #eeeeee;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.btn {
-        background: #343434;
-        background-image: linear-gradient(to bottom, #444444, #343434);
-        background-image:-webkit-linear-gradient(top, #444444 0%, #343434 51%);
-        background-image:-ms-linear-gradient(top, #444444 0%, #343434 51%);
-        background-image:-webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #444444),
-            color-stop(0.51, #343434)
-        );
-        border-radius: 28px;
-        color: #eeeeee;
-        padding: 8px 15px 8px 15px;
-  	display:inline-block;
-  	position:absolute;
-}
-
-.btn.back {
-	top:0.5em;
-	left:0.75em;
-}
-
-.btn.menu {
-	top:0.5em;
-	right:0.75em;
-}
-
-.btn.close {
-	position:relative;
-	padding:0.2em 0.5em;
-	border-radius:100px;
-	float:right;
-	top:-2em;
-}
-
-.body {
-	margin:1em;
-}
-
-img {
+#agenda {
 	display:block;
-	margin-left:auto;
-	margin-right:auto;
 }
 
-.activity {
-	border-bottom:1px solid black;
-	margin:0 1em;
+#sub-head {
+	padding:0.5em;
+	font-size:12px;
+	background-color:#666666;
 }
 
-#intro {
-	border-top:1px solid black;
-	border-bottom:1px solid black;
-	padding:1em 0;
-}
-
-.page-btn {
-	background-color: #343434;
-	background-image: linear-gradient(to bottom, #444444, #343434);
-        background-image:-webkit-linear-gradient(top, #444444 0%, #343434 51%);
-        background-image:-ms-linear-gradient(top, #444444 0%, #343434 51%);
-        background-image:-webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #444444),
-            color-stop(0.51, #343434)
-        );
-	border: 0;
+#head {
+	background-image: linear-gradient(to bottom, #343434, #444444);
+	background-image:-webkit-linear-gradient(top, #343434 0%, #444444 51%);
+    background-image:-ms-linear-gradient(top, #343434 0%, #444444 51%);
+    background-image:-webkit-gradient(
+    	linear,
+    	left top,
+    	left bottom,
+    	color-stop(0, #343434),
+    	color-stop(0.51, #444444)
+    );
 	padding:1em;
-	color:white;
-	text-align:center;
-	border-radius:15px;
-	margin: 5px;
+	padding-bottom:0px;
 }
 
-.page-btn:active {
-background-color: #BBB;
-}
-
-
-#menu-page {
-	position:absolute;
-	top:-1vh;
-}
-
-#menu-container {
-	position:relative;
+.tab {
+	display:inline-block;
 	background-color: #242424;
-	background-image: linear-gradient(to bottom, #343434, #242424);
-	border-radius: 15px;
-	padding:1em;
-	width: 75%;
-	top:12vh;
-	margin-left:auto;
-	margin-right:auto;
-	color:#eeeeee;
-}
-
-#menu-title {
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-	font-size:150%;
-	border-bottom:1px solid #444444;
-}
-
-.menu-item {
-	background-color: #343434;
-	background-image: linear-gradient(to bottom, #444444, #343434);
-	border: 0;
-	padding:1em;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
 	color:white;
+	padding:1em;
+	border-radius: 5px 5px 0px 0px;
+	width:25%;
 	text-align:center;
-	border-radius:15px;
-	margin: 5px;
+}
+
+.tab.selected {
+	background-color:#666666;
+	color:black;
+	font-weight:bold;
 }

@@ -13,13 +13,16 @@
         <script type="text/javascript" src="js/jquery-1.11.2.js"></script-->
         <title>Rome App 2015</title>
     </head>
-    <body>
+    <body id="body">
 		<div id="head">
-			<div class="tab selected" onclick="app.pageSwitch('agenda')">
+			<div class="tab selected" id="tab-agenda" onclick="app.pageSwitch('agenda')">
 				Agenda
 			</div>
-			<div class="tab" onclick="app.pageSwitch('contact')">
+			<div class="tab" id="tab-contact" onclick="app.pageSwitch('contact')">
 				Contact
+			</div>
+			<div class="tab" id="tab-kaart" onclick="app.pageSwitch('kaart')">
+				Kaart
 			</div>
 		</div>
 		<div id="sub-head">
@@ -31,6 +34,9 @@
 		</div>
 		<div class="page" id="contact">
 			<p>06123455785432983452724</p>
+		</div>
+		<div class="page" id="kaart">
+			<img src="img/rome-map.png">
 		</div>
         <script type="text/javascript">
             app.initialize();

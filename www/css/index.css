@@ -5,7 +5,7 @@ body {
     background-color:#BBBBBB;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:9px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -48,7 +48,7 @@ body {
 	border-right:1px solid black;
 	color:white;
 	padding:1em;
-	border-radius: 5px 5px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
 	width:20%;
 	text-align:center;
 }
@@ -64,6 +64,16 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	width:50%;
+}
+
+@media screen and (min-width:320px) {
+	body {
+		font-size:12px;
+	}
+	
+	.tab {
+		border-radius: 5px 5px 0px 0px;
+	}
 }
 
 @media screen and (min-width:480px) {

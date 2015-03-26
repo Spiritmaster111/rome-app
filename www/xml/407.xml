@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Tempio di Apollo Sosiano</naam>
+	<volgnummer>407</volgnummer>
+	<plaatje>TempioDiApolloSosiano</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Tempio di Apollo Sosiano is een tempel in Rome op het Marsveld gewijd aan Apollo Medicus, die oorspronkelijk was ingewijd in 431 v.Chr., maar zijn naam dankt aan Gaius Sosius die de tempel in de 1e eeuw v.Chr. liet herbouwen.
+	</info>
+	<extrainfo>
+		De tempel die in opdracht van Sosius werd gebouwd was een hexastyle pseudoperipteros, wat betekent dat er zes zuilen aan de voorkant stonden en dat het gedeelte van de tempel achter de pronaos niet voorzien was van hele zuilen, maar van pilasters (of halfzuilen). Het podium is 13 m. lang en ruim 4 m. hoog.
+De pronaos had 6 x 3 marmeren zuilen, voorzien van Korinthische kapitelen. De cella, waarin het cultusbeeld van Apollo stond, was zeer rijk versierd. Vermoedelijk stonden aan weerszijden in de cella rijen zuilen in twee verdiepingen. De onderste rij waren vrijstaande zuilen met Korinthische kapitelen en de zuilen daarboven waren pilasters met eveneens Korinthische kapitelen. Tussen de onderste zuilen stonden aedicula’s met afwisselend een driehoekig en een halfrond fronton (één zo’n aedicula is te zien in het museum Centrale Montemartini).
+In de cella stonden kunstwerken die waarschijnlijk door Sosius zelf naar Rome waren gehaald: schilderijen van Aristides van Thebe, verscheidene standbeelden van Philiscus van Rhodos, een citerspelende Apollo van Timarchides, een standbeeld van Apollo van cederhout uit Seleucia en de beroemde Niobidengroep waarvan ook in de oudheid al niet meer bekend was of hij moest worden toegeschreven aan Praxiteles of Skopas.
+Aan de buitenkant rustte op de zuilen een architraaf waarboven zich een rijk versierd fries bevond. Een deel hiervan is weer opgericht. Te zien zijn bucrania (runderschedels) en kandelabers waartussen slingers hangen van lauriertakken (de laurier was aan Apollo gewijd).
+	</extrainfo>
+</object>

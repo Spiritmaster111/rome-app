@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Musei Capitolini</naam>
+	<volgnummer>406</volgnummer>
+	<plaatje>MuseiCapitolini</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		De Musei Capitolini vormen een museum in Rome voor archeologie en kunst uit de Oudheid en de Renaissance, waarvan de collecties zijn ondergebracht in het Palazzo dei Conservatori en het Palazzo Nuovo op het Capitool, en in de Centrale Montemartini.
+	</info>
+	<extrainfo>
+		In het Palazzo Nuovo bevinden zich voornamelijk beeldhouwwerken, waaronder een grote verzameling portretten van onder andere Romeinse keizers en antieke filosofen, en beroemde beelden als de Venus Capitolina, de stervende Galliër en Amor en Psyche.
+		
+		Het Palazzo dei Conservatori heeft een binnenhof waar enkele monumentale beelden staan, zoals de resten van het standbeeld van keizer Constantijn uit de Basilica van Maxentius. Het heeft een aantal grote zalen die fraai zijn gedecoreerd en ook wel als officiële ontvangstruimte voor de stad Rome worden gebruikt. Vooral in de Zaal van de Horatii en de Curiatii zijn grote fresco’s te zien door Giuseppe Cesari (ca. 1600) van onder andere ‘Het vinden van Romulus en Remus door Faustulus’ en ‘De slag tussen de Horatii en de Curiatii’. In het Palazzo die Conservatori staan vele beroemde antieke kunstschatten als de Lupa Capitolina (Capitolijnse wolvin), de Spinario (Doornuittrekker), de bronzen buste van de ‘Capitolijnse Brutus’, enz.
+Aan het begin van de 21e eeuw is een nieuwe glazen halfronde hal gebouwd in een voormalige tuin. Rondom het originele Ruiterstandbeeld van Marcus Aurelius staan hier topstukken als de bronzen Hercules van het Forum Boarium en het grote bronzen hoofd van keizer Constantijn. In de aangrenzende ruimte zijn de resten te zien van het gigantische podium van de Tempel van Jupiter Capitolinus met een maquette en reconstructietekeningen.
+Op de bovenverdieping van het Palazzo dei Conservatori bevindt zich de Pinacotheek, een collectie van schilderijen uit de tijd van de vroege Renaissance tot en met de Barok, met werken van onder meer Caravaggio, Rubens en Velázquez.
+
+Een groot deel van de collectie van de Capitolijnse Musea is sinds 1997 ondergebracht in de Centrale Montemartini, een voormalige elektriciteitscentrale uit 1912 aan de Via Ostiense. Op de benedenverdieping staan vondsten uit de archaïsche en republikeinse periode, waaronder de ‘Togate Barberini’ (een patriciër met portretten van zijn voorouders). Op de bovenverdieping (de machineruimte en de stookruimte) staan tegen de achtergrond van enorme machines vele klassieke beelden opgesteld. Tot de hoogtepunten behoren de frontonsculpturen van de Tempel van Apollo Sosianus en het standbeeld van Agrippina de Jongere in basaniet.
+
+De geschiedenis van de Capitolijnse Musea begint in 1471 toen paus Sixtus IV vier beroemde bronzen sculpturen van het Paleis van Lateranen naar de Capitolijn liet overbrengen en daarmee teruggaf aan de burgers van de stad: de Capitolijnse wolvin (Lupa Capitolina), de Spinario (beeldje van een jongen die een doorn uit zijn voet trekt), de Camillus (standbeeld van een jongeman verantwoordelijk voor een cultus) en het bronzen hoofd van Constantijn samen met de hand en globe. Ze werden aanvankelijk opgesteld vóór het Palazzo dei Conservatori. Nieuwe objecten werden aangeworven, waaronder nog tijdens het pontificaat van Sixtus IV de bronzen Hercules die was gevonden op het Forum Boarium. Langzamerhand toen de collectie groeide, werden de voorwerpen verplaatst naar de binnenhof en de verschillende zalen van het Palazzo dei Conservatori.
+
+Met de bouw van het Palazzo Nuovo, aan de andere kant van de Piazza del Campidoglio, werd al begonnen in 1603, maar pas in 1733 werd het in gebruik genomen als museum, toen paus Clemens XII de Albani collectie verwierf, die voornamelijk bestond uit een grote verzameling portretten van beroemde personen, keizers en filosofen. Beroemde antieke beelden werden hier naartoe overgebracht, waaronder in 1750 de Venus Capitolina.
+
+Paus Benedictus XIV legde in 1748 de basis voor de Capitolijnse Pinacotheek, de schilderijenverzameling van het museum. Deze is ondergebracht in de bovenverdieping van het Palazzo dei Conservatori en behoort tot de belangrijkste schilderijencollecties van Italië.
+
+Van de talrijke vondsten die gedaan werden bij opgravingen tijdens de stadsuitbreidingen van Rome aan het eind van de 19e eeuw, gingen met name de standbeelden naar de Capitolijnse Musea. Er werden zalen ingericht voor de vondsten uit de Horti Lamiani en de Horti Maecenati (Tuinen van Lamia en van Maecenas). In 1925 breidde het museum uit met het Mussolini Museum, waarvan de naam later werd veranderd in Museo Nuovo, na het verwerven van het naast het Palazzo dei Conservatori gelegen Palazzo Caffarelli, dat door de Pruisische ambassade was verlaten. Hier werden de resten ontdekt van het podium van de Tempel van Jupiter Capitolinus. Het museum werd verder uitgebreid met de Braccio Nuovo (Nieuwe vleugel) in 1956. De toevloed van nieuwe vondsten, onder andere van het terrein van het Theater van Marcellus en de Tempel van Apollo Sosianus, maakte een herinrichting noodzakelijk. Een deel van de collectie werd daarom tijdelijk overgebracht naar de Centrale Montemartini, een voormalige elektriciteitscentrale uit 1912 aan de Via Ostiense. Na de tijdelijke expositie die in 1997 openging, is de Centrale als een permanent filiaal van de Capitolijnse Musea in gebruik gebleven.
+	</extrainfo>
+</object>

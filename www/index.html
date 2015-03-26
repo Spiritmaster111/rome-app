@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta id="viewport" name="viewport" content="user-scalable=1, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <!--script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.2.js"></script-->
+        <title>Rome App 2015</title>
+    </head>
+    <body id="body">
+		<div id="head">
+			<div class="tab selected" id="tab-agenda" onclick="app.pageSwitch('agenda')">
+				Agenda
+			</div>
+			<div class="tab" id="tab-contact" onclick="app.pageSwitch('contact')">
+				Contact
+			</div>
+			<div class="tab" id="tab-kaart" onclick="app.pageSwitch('kaart')">
+				Kaart
+			</div>
+		</div>
+		<div id="sub-head">
+			Dagagenda voor 3-14-2015
+		</div>
+		<div class="page" id="agenda">
+			<p>Bla Bla bla</p>
+			<p>paragraph</p>
+		</div>
+		<div class="page" id="contact">
+			<p>06123455785432983452724</p>
+		</div>
+		<div class="page" id="kaart">
+			<img src="img/rome-map.png">
+		</div>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

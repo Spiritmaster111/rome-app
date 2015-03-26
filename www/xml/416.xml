@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Largo Argentina</naam>
+	<volgnummer>416</volgnummer>
+	<plaatje>LargoArgentina</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Largo di Torre Argentina is een plein op het Marsveld in Rome, dat bekendstaat om de ruïnes van vier Romeinse tempels.
+	</info>
+	<extrainfo>
+		De naam van het plein komt van de Torre Argentina wat toren van Straatsburg betekent. De oorspronkelijke naam van Straatsburg was namelijk Argentoratum. In 1503 liet de uit Straatsburg afkomstige pauselijke ceremoniemeester Johannes Burckardt hier een paleis bouwen waar deze toren deel van uitmaakte.
+
+Benito Mussolini liet in de jaren twintig van de twintigste eeuw grote infrastructurele werken uitvoeren in Rome. In 1929 werden de gebouwen die sinds de middeleeuwen op het plein stonden afgebroken om meer ruimte voor het toenemende verkeer te krijgen. Hierbij werden het kolossale hoofd en de armen van een antiek marmeren beeld ontdekt. Archeologisch onderzoek bracht vervolgens een oud heilig plein uit de tijd van de Romeinse Republiek tevoorschijn, waarna de ruïnes van vier tempels en een deel van het theater van Pompeius opgegraven werden.
+
+De vier tempels worden aangeduid met de letters A, B, C, en D. Tempel B is de enige van de vier die met grote waarschijnlijkheid geïdentificeerd is. Van de overige tempels wordt vermoed dat ze aan de hieronder genoemde goden waren gewijd.
+De vier tempels stonden aan een geplaveide straat die is aangelegd na de grote brand van 80 n. Chr., die het Marsveld grotendeels in de as legde. Het plein werd aan de noordkant begrensd door het Hecatostylum (de porticus met honderd zuilen) en de Thermen van Agrippa, aan de zuidkant door bouwwerken behorend bij het Circus Flaminius, aan de oostzijde door het grote plein van de Porticus Minucia vetus en aan de westzijde door de porticus van het Theater van Pompeius.
+
+In Rome lopen duizenden straatkatten rond, die zich graag verschuilen tussen de oude Romeinse monumenten. In het Largo di Torre Argentina is een speciaal opvangcentrum voor deze katten opgericht. Vrijwilligers van over de hele wereld komen hier meehelpen met de verzorging. Momenteel lopen er zo'n 300 thuisloze poezen rond. Ze zijn overal op en tussen de ruïnes te zien.
+	</extrainfo>
+</object>

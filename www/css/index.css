@@ -1,0 +1,94 @@
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#BBBBBB;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.page {
+	display:none;
+}
+
+#agenda {
+	display:block;
+}
+
+#sub-head {
+	padding:0.5em;
+	background-color:#666666;
+}
+
+#head {
+	background-image: linear-gradient(to bottom, #343434, #444444);
+	background-image:-webkit-linear-gradient(top, #343434 0%, #444444 51%);
+    background-image:-ms-linear-gradient(top, #343434 0%, #444444 51%);
+    background-image:-webkit-gradient(
+    	linear,
+    	left top,
+    	left bottom,
+    	color-stop(0, #343434),
+    	color-stop(0.51, #444444)
+    );
+	padding:1em;
+	padding-bottom:0px;
+}
+
+.tab {
+	display:inline-block;
+	background-color: #242424;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	color:white;
+	padding:1em;
+	border-radius: 5px 5px 0px 0px;
+	width:20%;
+	text-align:center;
+}
+
+.tab.selected {
+	background-color:#666666;
+	color:black;
+	font-weight:bold;
+}
+
+#kaart img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+@media screen and (min-width:480px) {
+	body {
+		font-size:14px;
+	}
+	
+	.tab {
+		border-radius: 10px 10px 0px 0px;
+	}
+}
+
+@media screen and (min-width:750px) {
+	body {
+		font-size:20px;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	body {
+		font-size:24px;
+	}
+		
+	.tab {
+		border-radius: 15px 15px 0px 0px;
+	}
+}
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Piazza Venezia</naam>
+	<volgnummer>402</volgnummer>
+	<plaatje>PiazzaVenezia</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		De Piazza Venezia is een plein in het centrum van de Italiaanse hoofdstad Rome. Het plein ontleent zijn naam aan het Palazzo Venezia, dat aan de rand van het plein staat.
+	</info>
+	<extrainfo>
+		Het plein ligt aan de voet van de Capitolijn, dichtbij het Forum Romanum en naast het Forum van Trajanus. Op dit rechthoekige plein komt een aantal van de grootste verkeersaders van Rome uit: de Via del Corso, de Via Quattro Novembre, de Via del Plebiscito en de Via dei Fori Imperiali. De Piazza Venezia heeft dus een belangrijke rol als verkeersplein. Verkeerslichten zijn ondanks de onafgebroken verkeersstroom niet aanwezig en vaak wordt het verkeer door agenten geregeld.
+Daarnaast is het plein een toeristische trekpleister. Het aanzicht van het plein wordt volledig gedomineerd door het witte monument van Victor Emanuel II. Ook het Palazzo Venezia, de Basilica San Marco, het Palazzo Bonaparte en het borstbeeld met de bijnaam Madame Lucrezia staan in veel reisgidsen vermeld.
+	</extrainfo>
+</object>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Teatro di Marcello</naam>
+	<volgnummer>408</volgnummer>
+	<plaatje>TeatroMarcello</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Het Teatro di Marcello is een halfrond theater dat in Rome is gebouwd in opdracht van Augustus.
+	</info>
+	<extrainfo>
+		Toen het halfronde theater in 11 v.Chr. klaar was, was het meer dan 30 meter hoog. De cavea had een diameter van 130 meter. Het theater bood plaats aan 14.000 toeschouwers, daarvan konden er 12.000 zitten. Het theater had 3 niveaus, en elk niveau had zijn eigen bouwstijl. Het eerste niveau was in de Dorische orde gebouwd, het 2 niveau in Ionische orde en de 3e in de Korinthische orde. Tegenwoordig zijn alleen restanten van de onderste twee verdiepingen te zien. Het theater was zeer luxueus ingericht. De gehele cavea was bekleed met marmer en het geheel was gebouwd uit cement, tufa en gewone stenen.
+		
+		Na de vervalperiode van de Republikeinse instellingen begaf het Romeinse theaterpubliek zich nog maar zelden naar voorstellingen van enig niveau. De blijspelen van Plautus en Terentius raakten uit de mode, en de werken van Seneca konden enkel een select publiek van intellectuele lezers boeien. De theatervoorstellingen bleven beperkt tot pantomime en korte genrestukjes die een bonte afwisseling boden van tragedie en komedie, van poëzie en muziek. Ook al bereikten sommige van deze producties enig niveau, meestal bleef de inhoud beperkt tot allerlei avontuurtjes, om in de smaak van een gemakzuchtig publiek te blijven.
+
+Het waren de Romeinen zelf die begonnen aan de aftakeling van het theater van Marcellus. In 370 na Chr. nam men enkele grote steenblokken weg om de schade aan de nabijgelegen Pons Cestius te herstellen. Sindsdien ging de gestadige afbraak verder tot in de 12e eeuw, toen adellijke Romeinse families zich in de ruïnes kwamen verschansen tijdens hun strijd tegen pausen en keizers. Na 1400 kwam het gebouw in handen van de familie Savelli, die er later in de 16e eeuw boven de tweede bogenrij een elegante woonverdieping lieten bouwen door de architect Baldassare Peruzzi.
+	</extrainfo>
+</object>

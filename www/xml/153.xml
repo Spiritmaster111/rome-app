@@ -5,7 +5,11 @@
 	<plaatje>113</plaatje>
 	<kaart>bestandnaam</kaart>
 	<info>
+<<<<<<< HEAD
 		De kapel van St. Silvester ligt aan de basiliek Santi Quattro Coronati.
+=======
+		De kapel van St. Silvester ligt aan de basiliek Santi Quattro Coronati.
+>>>>>>> 7fd8f3a321051f0c8aa1d68c96d6f814a4302f85
 	</info>
 	
 </object>

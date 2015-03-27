@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Arco delgi Argentari</naam>
+	<volgnummer>412</volgnummer>
+	<plaatje>ArcoDelgiArgentari</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Arco delgi Argentari is een ereboog ter ere van keizer Septimius Severus in Rome.
+	</info>
+	<extrainfo>
+		Arco delgi Argentari is geen echte triomfboog. Het oorspronkelijke doel is niet meer bekend, maar waarschijnlijk was het een monumentale poort over de Vicus Jugarius die toegang gaf tot het naastgelegen Forum Boarium. De wijdingsinscriptie vermeldt dat de boog niet is gebouwd in opdracht van de keizer of de staat, maar door de lokale geldwisselaars (argentarii) en handelaars (negotiantes) ter ere van Septimius Severus en zijn familie.
+		
+		Arco delgi Argentari is voltooid in 204 n. Chr. en is 6,15 meter hoog, de doorgang is 3,3 meter breed. De boog is gebouwd uit wit marmer, met uitzondering van de voet die uit travertijn is gebouwd. Behalve op de achterzijde is de buitenkant van de boog versierd met sculpturen en reliëfs. De hoeken van de pilaren worden gesierd door pilasters met Korinthische kapitelen. De inwijdingsinscriptie staat tussen twee bas-reliëfs in, die Hercules en een geest voorstellen. In de doorgang zijn offerscènes afgebeeld; Op het rechterpaneel staan Septimius Severus en zijn vrouw Julia Domna, aan de linkerzijde is Caracalla afgebeeld samen met zijn broer Geta, zijn vrouw Plautilla en schoonvader Gaius Fulvius Plautianus.
+	</extrainfo>
+</object>

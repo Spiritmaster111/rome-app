@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>S. Maria in Cosmedin</naam>
+	<volgnummer>413</volgnummer>
+	<plaatje>MariaInCosmedin</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		De Basilica di Santa Maria in Cosmedin is een basiliek in Rome.
+
+De driebeukige basiliek is in de 6e eeuw gebouwd op resten van een antiek gebouw, vermoedelijk de Ara Maxima Herculis. In de 8e eeuw werd de kerk door Paus Adrianus I aan Oost-Romeinse Grieken geschonken die gevlucht waren. In deze periode is de basiliek uitgebreid met per schip een apsis. Uit deze tijd komt ook de met leeuwen versierde bisschopstroon.
+	</info>
+	<extrainfo>
+		Onder Paus Calixtus II (12e eeuw) werd de kerk verder verbouwd en werden de voorhal, campanile toegevoegd evenals cosmatenkunst in het interieur.
+
+In de barokperiode werd het interieur van de kerk wederom aangepast, maar de toevoegingen uit deze periode zijn eind 19e eeuw weer verwijderd waardoor de kerk nu een gaaf 12e-eeuwse indruk maakt.
+
+In het voorportaal hangt de beroemde La Bocca della Verità. Dit is een antieke marmeren schijf, met de afbeelding van een riviergod. Volgens een oude legende bijt de afgebeelde god de hand af van eenieder die zijn hand in de mond van de god doet en een leugen uitspreekt. Duizenden toeristen per jaar bezoeken de kerk om de legende op waarheid te testen.
+	</extrainfo>
+</object>

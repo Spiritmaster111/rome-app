@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>S. Giorgio in Velabro</naam>
+	<volgnummer>411</volgnummer>
+	<plaatje>GiorgioVelabro</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		De S. Giorgio in Velabro is een kerk in Rome ter ere van S. Giorgio. De kerk staat in het Velabrum naast de ark van Janus
+	</info>
+	<extrainfo>
+		De eerste religieuze gebouw geattesteerd in de plaats van de huidige basiliek is een diaconie, gefinancierd door paus Gregorius de Grote.
+
+De huidige kerk werd gebouwd in de 7e eeuw, mogelijk door paus Leo II, die gewijd aan Sint Sebastiaan. Een 482 inscriptie in de catacomben van St. Callixtus verwijst waarschijnlijk van een kerk in dezelfde zone. Het plan onregelmatig inderdaad enigszins trapeziumvormige, als gevolg van de frequente toevoegingen aan het gebouw. Zoals blijkt uit de onderste foto, het interieur kolommen vrijwel willekeurig gerangschikt zijn genomen van diverse Romeinse tempels.
+
+De kerk was in de Griekse wijk van Rome, waar het Grieks sprekende handelaren, civiele en militaire officieren en monniken van het Byzantijnse Rijk leefde - het nabijgelegen Santa Maria in Cosmedin, bijvoorbeeld, stond bekend als in Schola Graeca op het moment. Paus Zacharias (741-752), die van Griekse oorsprong was, verhuisde de relikwie van St. George om hier van Cappadocië, zodat deze heilige had een kerk gewijd in het Westen ruim voor de verspreiding van zijn aanbidding met de terugkeer van de kruisvaarders uit het Oosten.
+
+Na een restauratie van paus Gregorius IV (9e eeuw), kreeg de kerk de toevoeging van de portiek en van de toren klok in de eerste helft van de 13e eeuw. De apsis is versierd met fresco's van Pietro Cavallini in de 13e eeuw.
+
+In de 14e eeuw, de Romeinse patriot Cola Di Rienzo postte een manifest aankondiging van de bevrijding van Rome op de deuren van deze kerk. [1]
+
+Tussen 1923 en 1926, de hoofdinspecteur van de monumenten van Rome, Antonio Muñoz, voltooide een meer radicale restauratie-programma, met als doel het herstel van "middeleeuwse karakter" van het gebouw en het vrijmaken van het van latere toevoegingen. Dit werd gedaan door het terugzenden van de vloer tot het oorspronkelijke niveau (en dus het blootstellen van de kolom basen) de heropening van de oude ramen die licht gaf aan de middenbeuk, het herstel van de apsis, en in het algemeen het verwijderen van talrijke aanwassen van de andere meest recente restauraties. Daarbij werden fragmenten (nu getoond op de binnenwanden) gevonden hetgeen een Schola Cantorum op de site toegerekend aan de periode van Gregory IV.
+
+Het gebouw als we zien het vandaag is grotendeels een product van de jaren 1920 restauratie. Echter, vijf jaar verder herstel volgde de explosie van een autobom, geparkeerd dicht bij de gevel, om middernacht op 27 juli 1993. Dat explosie veroorzaakte geen slachtoffers maar verliet de 12e eeuw portiek bijna volledig ingestort en blies een grote opening in de muur van de grote kerk, en deed ook ernstige schade aan de woning van het generalaat van de kruisheren (Orde van het Heilig Kruis) naast de deur. Het ministerie van Cultureel Erfgoed onderzocht en gecatalogiseerd wat werd beschadigd of vernietigd, het plaatsen van de fragmenten in 1050 kratten met data en locatiespecifieke referenties voordat het herstel van het gebouw met hen, hoewel sommige details, met name in de portiek, werden bewust niet ongerestaureerde als een gedenkteken voor de bombardementen.
+	</extrainfo>
+</object>

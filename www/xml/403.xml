@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Altare della Patria</naam>
+	<volgnummer>403</volgnummer>
+	<plaatje>AltareDellaPatria</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Altare della Patria is een monument in de Italiaanse hoofdstad Rome. Binnenin het monument is een museum gewijd aan de eenwording van Italië (Museo del Risorgimento).
+Het gebouw bezet het plein tussen de Piazza Venezia en de Capitolijn. Het gebouw is ontworpen door Giuseppe Sacconi.
+	</info>
+	<extrainfo>
+		De bouw ervan is grotendeels ten koste gegaan van de Capitolijn. Het gebouw bestaat uit puur wit marmer van Botticino (Brescia) en de grote trappen ervoor brengen je tot op de helft van het gebouw. Er zijn veel zuilen en in het midden staat een standbeeld van Victor Emanuel II. Het ruiterstandbeeld werd gemaakt door de beeldhouwer Enrico Chiaradia die er twintig jaar aan werkte. De reliëfs er direct onder beelden de Italiaanse steden uit, ontworpen door Eugenio Maccagnani. De grote reliëfs aan weerszijden van het "Altaar van de Natie" zijn van Angelo Zanelli. Deze gedenken de grote ontwikkeling van Italië in kunst, wetenschap, religie en rechtswetenschap.
+Het verwezenlijken van "il Vittoriano" stuitte op veel verzet bij de Romeinen die het monument nog steeds gekscherend 'de bruidstaart' of 'de typemachine' noemen. Tegenstanders vinden het gebouw te kolossaal en totaal niet passen in het historische centrum van Rome.
+Boven op het gebouw, aan de rechter- en linkerzijde, staan twee standbeelden van de godin Victoria, die rijdt op een vierspan. Links staat het standbeeld ter ere van de Unità (Eenheid), gemaakt door Carlo Fontana. Rechts staat het standbeeld ter ere van de Libertà (Vrijheid), gemaakt door Paolo Bartolini. Ook is er een Graf van de Onbekende Soldaat aanwezig.
+Links en rechts van het monument staan fonteinen. De linkerfontein symboliseert de Adriatische Zee, die aan de rechterkant de Tyrreense.
+	</extrainfo>
+</object>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Arco di Giano</naam>
+	<volgnummer>410</volgnummer>
+	<plaatje>ArcoGiano</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		De Boog van Janus (Italiaans:Arco di Giano, Latijn:Ianus Quirinus) is een Romeinse triomfboog uit de vierde eeuw in Rome.
+De Boog van Janus is gebouwd rond 356 n.Chr. in opdracht van keizer Constantius II ter ere van zijn vader Constantijn de Grote.
+	</info>
+	<extrainfo>
+		De oorspronkelijke naam was dan ook Arcus divi Constantini, de boog van de vergoddelijkte Constantijn. Janus was de Romeinse god van de poorten en bruggen, maar deze naam voor de boog is pas na de Romeinse tijd bedacht.
+De boog is gebouwd in het Velabrum, de vallei tussen de belangrijkste heuvels van Rome, de Capitolijn en de Palatijn. Het Velabrum vormde de belangrijke verbinding tussen het Forum Romanum en het Forum Boarium. De Boog van Janus stond waarschijnlijk op een kruising van vier wegen en kon zo als overdekte handelsplaats gebruikt worden. Direct onder de boog stroomt de Cloaca Maxima, het antieke riool van Rome.
+De Boog van Janus is een zogenaamde quadrifons triomfboog, met vier gelijke zijden. Het is de enige van dit type in Rome die bewaard is gebleven. Hij is gebouwd op een vierkante basis van 12 meter en is ongeveer 16 meter hoog. De boog is gebouwd uit baksteen en bekleed met marmer, dat afkomstig was van oudere monumenten. In alle vier de zijden zijn twee rijen met halfronde nissen, 48 in totaal, waar ooit beelden instonden. Iedere nis werd vroeger geflankeerd door twee kleine zuilen, een stijlelement uit de vierde eeuw. De sluitstenen van de bogen waren versierd met goddelijke figuren. Op de noordelijke en oostelijke zijden zijn nog de afbeeldingen van Minerva en Roma te zien.In de middeleeuwen werd de Boog van Janus omgebouwd tot een fort voor de familie Frangipani en op het dak werd een toren gebouwd. In 1827 werd het fort afgebroken en de boog in oorspronkelijke staat hersteld. Samen met de middeleeuwse toren werd echter ook de oorspronkelijke attiek per ongeluk verwijderd. Ter vervanging is nu een laag piramidevormig dak geplaatst.
+	</extrainfo>
+</object>

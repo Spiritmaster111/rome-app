@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Foro Boario</naam>
+	<volgnummer>409</volgnummer>
+	<plaatje>ForoBoario</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Het Forum Boarium is een oud marktplein in Rome. Het is het oudste forum van Rome en ligt op het kruispunt van enkele belangrijke wegen uit de oudheid.
+	</info>
+	<extrainfo>
+		Forum Boarium betekent letterlijk Rundermarkt en dit was de plaats waar in het oude Rome de veemarkt werd gehouden. Het forum is gelegen op een vlak stuk land aan de Tiber tussen de heuvels Capitolijn, Aventijn en Palatijn. Nadat hier oorspronkelijk een doorwaadbare plaats in de Tiber was geweest, werden hier de eerste bruggen van Rome gebouwd. Een oude en belangrijke haven van de stad, de Portus Tiberinus, lag ook aan het forum. Hier werd zout verhandeld dat over de Via Salaria naar andere delen van Italië werd vervoerd. Hierdoor groeide de marktplaats uit tot een dichtbevolkt gebied met een grote economische betekenis. De openbare ruimte van het marktplein werd afgebakend met grensstenen om te voorkomen dat deze langzaam volgebouwd zou worden. Naast woonhuizen stonden er portico's (zuilengalerijen) en gebouwen voor goederenopslag.
+Op het forum werden tempels opgericht voor Hercules Invictus, Fortuna, Hercules Pompeianus, Mater Matuta, Portunus en Pudicitia Patricia. Het grote altaar Ara Maxima Herculis stamde uit de 6e of 5e eeuw v.Chr. en stond naast de tempel van Hercules Invictus. Dit altaar werd verwoest tijdens de grote brand van 64 maar werd herbouwd en is zeker tot de 4e eeuw na Chr. blijven bestaan.
+Op het Forum Boarium werden de oudst bekende gladiatorengevechten gehouden. In 264 v.Chr. liet Decimus Junius Brutus Scaeva hier lijkspelen ter ere van zijn overleden vader opvoeren waarbij drie paar slaven als gladiator moesten optreden.
+	</extrainfo>
+</object>

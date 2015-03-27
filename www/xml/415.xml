@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Tibereiland</naam>
+	<volgnummer>415</volgnummer>
+	<plaatje>Tibereiland</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Het Tibereiland  is een langwerpig eiland in de zuidelijke bocht van de rivier de Tiber in Rome.
+Het eiland is ongeveer 270 meter lang en maximaal 67 meter breed. Het staat bekend als de locatie van de Tempel van Asclepius, de Griekse halfgod van de geneeskunde.
+	</info>
+	<extrainfo>
+		Volgens een legende is het Tibereiland ontstaan nadat de laatste koning van Rome, Tarquinius Superbus in 510 v.Chr., werd verdreven. De boze Romeinen verzamelden het graan van de velden van de Etruskische koning, de Campus Martius, en gooiden dit in de Tiber. Dit spoelde niet weg maar bleef liggen en vormde zo de fundering van het eiland. Een andere versie van het verhaal vertelt dat het lichaam van de koning zelf in de rivier werd gegooid. Aan zijn lijk zette zich slib en klei vast zo ontstond het eiland.
+
+Wegens deze duistere achtergrond werd het eiland beschouwd als een slechte plaats. Tot de bouw van de Tempel van Asclepius kwam er bijna niemand en alleen de grootste criminelen werden erheen verbannen.
+Rond 293 v.Chr. heerste de pest in Rome. De senaat liet de Sibyllijnse boeken raadplegen en kreeg daaruit het advies om een tempel voor Asclepius, de Griekse god van de geneeskunde, te bouwen. Een gezantschap werd er met een schip op uitgestuurd om een beeld van de god te bemachtigen. Toen het gezantschap terugkeerde uit het Griekse Epidauros en de Tiber opvoer, zag men een slang (het symbool van Asclepius) uit het schip ontsnappen en naar het Tibereiland zwemmen. Dit werd gezien als een keuze van Asclepius zelf voor de locatie van de tempel, en daar werd dan ook de Tempel van Aesculapius gebouwd.
+
+In werkelijkheid werd het eiland waarschijnlijk gekozen om zijn geïsoleerde ligging, waardoor de pest en andere ziektes de tempel niet konden bereiken.
+Ter herinnering aan de legende werd het eiland zo gemodelleerd dat het op een schip leek. De noordwestelijke en zuidoostelijke oevers werden bekleed met travertijn en kregen het uiterlijk van een boeg en achtersteven. Langs het water werden muren gebouwd en een obelisk in het midden van het eiland symboliseerde de scheepsmast.
+
+Twee bruggen verbonden het eiland met beide oevers van de stad. Deze bruggen bestaan nog steeds:
+
+De Pons Fabricius, uit 62 v.Chr., is gebouwd door Lucius Fabricius, zoals een inscriptie vermeldt en is de oudst bewaarde brug van Rome. Hij is 62 meter lang, heeft twee grote bogen, die rusten op een middelpijler, waarin zich een kleine boog bevindt, die bij overstromingen de waterdruk kan verminderen, en hij verbindt het Tibereiland met het centrum van de stad, de Campus Martius in het noorden.
+De Pons Cestius uit 46 n. Chr. verbindt het eiland met de wijk Trastevere in het zuiden. Hij was oorspronkelijk ongeveer vijftig meter lang en had een grote poort en twee kleinere aan de zijkanten. Hij werd in de 19e eeuw geheel herbouwd. De inscriptie ter herdenking van een herbouw in de 4e eeuw n.Chr. bevindt zich in het midden van één van de bruggenhoofden.
+Verder rust de pijler van de Ponte Garibaldi, die tussen 1884 en 1888 werd gebouwd, op het meest westelijke punt van het Tibereiland. Via deze brug is het eiland echter niet bereikbaar.
+
+In de christelijke tijd werd de obelisk vervangen door een zuil waarop een kruis was geplaatst. Deze werd in 1867 afgebroken en vervangen door een aedicula. Dit monument is versierd met de vier heiligen waarmee het Tibereiland verbonden is: Bartolomeüs, Paulinus van Nola, Franciscus en Johannes.
+
+Hoewel de Tempel van Asclepius is verdwenen, is het eiland altijd in het teken van de gezondheidszorg blijven staan. Tegenwoordig staat het moderne ziekenhuis Fatebenefratelli op het westelijke deel van het eiland.
+
+In 998 liet keizer Otto III een nieuwe basiliek bouwen op de ruïne van de oude tempel. Hij wijdde de kerk aan zijn vriend, de martelaar Adalbert van Praag die het jaar ervoor was vermoord. De naam van Bartolomeüs werd pas later aan de kerk verbonden. Tegenwoordig staat deze bekend als San Bartolomeo all'Isola (Sint Bartolomeüs op het eiland).
+
+Een klein deel van de oorspronkelijke travertijnen bekleding is nog te zien aan het oostelijke einde van het eiland. Delen van de obelisk zijn gevonden en staan nu in een museum in Napels.
+	</extrainfo>
+</object>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>S. Maria in Aracoeli</naam>
+	<volgnummer>405</volgnummer>
+	<plaatje>MariaInAracoeli</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		De Santa Maria in Aracoeli is een basiliek die in Rome staat, dicht bij het Capitool. De kerk is titelkerk van aartsbisschop-emeritus Salvatore kardinaal De Giorgi.
+	</info>
+	<extrainfo>
+		In de zesde eeuw werd de Santa Maria in Aracoeli gebouwd en eigendom van Griekse monniken. De kerk is, zoals de naam al zegt, gewijd aan Maria. Mogelijk is de Santa Maria in Aracoeli op de fundamenten van de Tempel van Juno Moneta gebouwd. In de 10e eeuw werd de kerk overgedragen aan de Benedictijnen, in 1250 werd ze door de paus aan de Franciscanen toegewezen. Toen werd de kerk ook herbouwd.
+		
+		In de middeleeuwen werd de kerk een soort van forum en het politiekbesturend centrum van Rome. Er werden discussies gehouden en vonden volksbijeenkomsten plaats. Tijdens de Franse bezetting in 1797 werd de kerk haar heilige karakter ontnomen, maar na de val van Napoleon kreeg ze weer een religieuze functie. Tegenwoordig is de kerk belangrijk vanwege de officiële godsdienstige plechtigheden die er worden gehouden.
+		
+		De gevel van de kerk zou eigenlijk met mozaïek bedekt worden, maar is nooit voltooid. In 1412 kwam de eerste "openbare klok" van Rome op deze voorgevel te hangen. De sporen hiervan zijn nog te zien. In 1348 werd een zeer steile trap gebouwd die naar de kerk leidt, als dank omdat de pestepidemie voorbij was of vanwege het Heilige Jaar 1350. Tot het einde van de 19e eeuw werd de trap als een "heilige trap" gezien. Men zou de lotto winnen als men 's nachts biddend op de knieën de trap zou beklimmen. Eerst sliepen zwervers onderaan de trap, dat werd later verboden nadat een zwerver van schrik een hartstilstand kreeg toen iemand voor de grap een wijnton naar beneden had laten rollen.
+		
+		De Santa Maria in Aracoeli heeft een romanogotisch karakter. De kerk bevat veel versieringen. Ze is langwerpig van vorm en verdeeld in drie beuken die van elkaar worden gescheiden door tweeëntwintig verschillende zuilen. Op de derde zuil van links staat a cubiculo Augustorum, deze zuil komt waarschijnlijk uit het slaapvertrek van de keizer. In de kerk zijn meerdere altaren. De vloer van de kerk is gesierd met geometrische figuren van cosmatenwerk (stukjes gekleurd marmer) afkomstig uit oude ruïnes, en bezaaid met grafstenen van beroemdheden. De decoraties op het vergulde plafond van het middenschip beelden de Europese overwinning in de Slag bij Lepanto in 1571 uit. Aan het eind van het middenschip zit de apsis, deze is vierkant. Beide zijschepen bestaan uit negen kapelletjes, waarvan sommige van bekende Romeinse geslachten zijn. Bij de Capella Bufalini zijn fresco's die scènes uit het leven van de heilige Bernardinus van Siena uitbeelden van de schilder Pinturicchio. Deze fresco's zijn duidelijk renaissancistisch, te zien aan de realistische weergave. De Maria boven het hoofdaltaar is daarentegen juist heel gestileerd. Vooraan links is een graf met een marmeren landkaart, van Eugenio Ruspoli, een in 1893 door een olifant gedode ontdekkingsreiziger. Verderop is een gedenksteen voor Felis de Fredis, de wijnbouwer die in 1506 de Laocoöngroep terugvond onder zijn wijngaard. Aan de rechterkant van het portaal naar de zijuitgang is het graf van de geliefde van Michelangelo, Cecchino Bracci. Michelangelo schreef voor hem veel gedichten.
+	</extrainfo>
+</object>

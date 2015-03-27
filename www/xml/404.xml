@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Madame Lucrezia</naam>
+	<volgnummer>404</volgnummer>
+	<plaatje>MadameLucrezia</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		Madame Lucrezia is een bekend antiek standbeeld in Rome. Het beeld staat op de Piazza di San Marco naast de Basilica San Marco.
+	</info>
+	<extrainfo>
+		Het beeld stelt de godin Isis voor en stond in de oudheid waarschijnlijk in de Tempel van Isis en Serapis, die in de buurt van Piazza Marco stond. Het beeld werd door kardinaal Lorenzo Cybo, die rond het jaar 1500 kardinaal van de San Marco was, op het plein geplaatst. Het beeld dankt zijn naam volgens verschillende verhalen aan Lucrezia d'Alagno, minnares van koning Alfons V van Aragón, die het beeld van deze koning zou hebben gekregen.
+		
+		Madame Lucrezia werd bekend als één van de “sprekende standbeelden” van Rome. Toen de pausen nog over Rome heersten, was het niet zonder risico om je mening uit te spreken. Dus sprak Madame Lucrezia namens het volk: burgers plakten radicale boodschappen, vaak in de vorm van woordspelingen, op het beeld om hun kritiek op de Kerk, de paus of andere geestelijke leiders te uiten.
+	</extrainfo>
+</object>

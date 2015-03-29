@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Friezenkerk</naam>
+	<volgnummer>402.2</volgnummer>
+	<plaatje>Friezenkerk</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		 De Friezenkerk (ook bekend onder de Italiaanse naam Santi Michele e Magno) in Rome is in 1141 gebouwd tegen een van de Romeinse heuvels, de Janiculus, die grenst aan het Sint-Pietersplein. Dankzij haar ligging is zij bewaard gebleven toen in de 16e eeuw alle gebouwen die onder aan de heuvel stonden werden gesloopt voor de bouw van de Sint-Pieter. De kerk behoort tot de extraterritoriale bezittingen van het Vaticaan op de Janiculum, die in 1990 door de UNESCO zijn toegevoegd aan de Werelderfgoedlijst.
+	</info>
+	<extrainfo>
+		Waar nu de kerk van de Friezen staat (ook wel 'Kerk der Friezen' genoemd), woonde twaalfhonderd jaar geleden een Friese kolonie. Deze de Schola van de Friezen wordt genoemd bij de ontvangst van paus Leo III na zijn terugkeer in Rome in 799, bij de begroeting van Karel de Grote in 800, en door Lodewijk II in 844. In 845 verdedigden de Friezen samen met de inwoners van de andere scholae de Sint-Pieter en bijbehorende wijk tegen de inval van de Saracenen, helaas werden de scholae geplunderd. Kort daarna werd de wijk door een muur omgeven, waarvan nog altijd resten te zien zijn. Ieder die vanuit het Friese grondgebied naar Rome kwam streek daar neer. Ook andere volkeren hadden een dergelijke wijk, maar die van de Friezen ligt het dichtst bij de St Pieter.
+
+Van het oude, originele kerkje dat bij die kleine nederzetting hoorde is niets teruggevonden. Het moet verwoest zijn door oorlogsgeweld. De patroon van de Friezenkerk was: Michael, de aartsengel die Rome ooit van de pest heeft bevrijd. Later kreeg het er een tweede patroon bij: Sint-Magnus, een heilige 3e-eeuwse bisschop die bij toeval hier, vijfhonderd jaar na zijn dood, terecht kwam. Volgens een inscriptie uit de 13e of 14e eeuw hadden al te ijverige Friezen namelijk zijn relieken mee naar het hoge noorden willen nemen, maar dat zou door Paus Leo IV tegengehouden zijn en de relieken bleven in Rome, in de kerk die vanaf toen een dubbele naam kreeg; kerk van Michael en Magnus. In 1141 is de nieuwe kerk gebouwd: groter en mooier dan de eerste kerk geweest moet zijn. Het was een romaans bouwwerk, met oude zuilen, en een fraaie klokkentoren. Die klokkentoren is nog steeds te bewonderen, maar de kerk ziet er nu heel wat anders uit dan toen hij gebouwd werd. In de achttiende en negentiende eeuw werd het interieur zo ingrijpend gewijzigd, dat alleen kleine details die ouderdom nog verraden. Er zijn twee fragmenten van een grafplaat voor een zekere Hebus, een Friese ridder die in 1004 in Rome op negentigjarige leeftijd overleed.
+	</extrainfo>
+</object>

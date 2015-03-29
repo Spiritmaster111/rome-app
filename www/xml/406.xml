@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Sacrofagi di Constantina e S.Elena</naam>
+	<volgnummer>406.2</volgnummer>
+	<plaatje>SacrofagiDiConstantina</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+	Santa Costanza is een kerk in Rome die gebouwd werd door de Romeinse keizer Constantijn de Grote in de eerste helft van de vierde eeuw. Het gebouw diende in eerste instantie als mausoleum voor Constantijns dochters Constantina en Helena. Later werd Constantina tot heilige verklaard en kreeg ze de Italiaanse naam Constanza en werd de kerk aan haar gewijd.
+	</info>
+	<extrainfo>
+		De 'Bentvueghels', een gezelschap van kunstenaars afkomstig uit de Nederlanden, kwamen hier in de 17e eeuw regelmatig bij elkaar. Zij dachten dat de Santa Constanza oorspronkelijk aan de wijngod Bacchus was gewijd.
+	</extrainfo>
+</object>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Vaticaanse Musea</naam>
+	<volgnummer>404.2</volgnummer>
+	<plaatje>VaticaanseMusea</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+		 De Vaticaanse Musea (Italiaans: I Musei Vaticani) is een groep musea in de Apostolische paleizen waarin de kunstschatten van het Vaticaan te bezichtigen zijn. Deze collectie is in de loop der eeuwen ontstaan doordat pausen kunstwerken aankochten, lieten vervaardigen of veroverden.
+	</info>
+	<extrainfo>
+		Onder paus Sixtus IV, tevens opdrachtgever tot de bouw van de Sixtijnse Kapel, werd de aanzet gegeven tot de bouw van het eerste museum. Dit museum werd gebouwd naar een ontwerp van Donato Bramante. Pas later werd de volle omvang van het bezit van de pausen duidelijk. De huidige musea, verdeeld in afdelingen, ontstonden pas in de 18e en 19e eeuw.
+
+In de 'Salle delle Muse' bevindt zich de best bewaarde buste van Perikles en in de aansluitende zaal, de 'Salle degli Animale', bevindt zich een beeld van Meleager.
+
+Op de 'Cortile e Belvedere', een binnenplaats, staat de Laocoön-groep. Paus Julius II kocht deze bij een opgraving in 1506 van een boer, waarna het een icoon voor de burgers van Rome werd. Deze beeldengroep heeft onder meer Michelangelo geïnspireerd bij het schilderen en beeldhouwen van zijn kronkelende lichamen.
+	</extrainfo>
+</object>

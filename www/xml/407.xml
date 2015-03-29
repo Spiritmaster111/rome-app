@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Laocoonte</naam>
+	<volgnummer>407.2</volgnummer>
+	<plaatje>Laocoonte</plaatje>
+	<kaart>bestandnaam</kaart>
+	<!--
+		Voor <plaatje></plaatje> doe je de naam van het bestand.
+		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
+		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
+		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
+		Ook moeten alle plaatjes .png zijn.
+		Bij het copy pasten van deze template mag deze comment verwijderd worden.
+	-->
+	<info>
+	In de Griekse mythologie is Laocoön (Lat.) of Laokoön (Gr.) een Trojaanse priester van Apollon en Poseidon ten tijde van de val van Troje. Zijn verhaal is niet bij Homerus te vinden, maar wel bij latere Griekse en Romeinse auteurs.
+	</info>
+	<extrainfo>
+		Laocoön waarschuwt de Trojanen voor het gevaar van het paard; hij heeft de list van Odysseus doorzien. Als hij het paard voor het eerst ziet, zwaait hij zijn lans in de rug van het heilige gevaarte en raakt daarbij één van de Griekse soldaten in het oor. Net als hij de meerderheid van zijn stadsgenoten heeft overtuigd, wordt Sinon de stad binnen gesleept. Deze Griek is zogenaamd achtergelaten door de vertrokken Grieken, en brengt de Trojanen opnieuw aan het twijfelen, tot een gruwelijk voorteken hen van Laocoöns ongelijk overtuigt: twee slangen komen uit zee aangekropen om Laocoön en zijn zonen Antiphantes en Thymbraeus te verzwelgen.
+
+Over de betekenis van de slangen bestaat bij de antieke vertellers verschil van opvatting: ze zouden door Poseidon gezonden zijn, als opdracht van Athena dat hij de Trojanen evenzeer haatte als zij, of ze zouden Apollons waarschuwing zijn voor de ondergang van de stad. Volgens Vergilius kropen de slangen door naar de tempel van hun meesteres Athena.
+	</extrainfo>
+</object>

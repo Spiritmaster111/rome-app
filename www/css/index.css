@@ -5,7 +5,7 @@ body {
     background-color:#BBBBBB;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:9px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -48,7 +48,7 @@ body {
 	border-right:1px solid black;
 	color:white;
 	padding:1em;
-	border-radius: 5px 5px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
 	width:20%;
 	text-align:center;
 }
@@ -66,29 +66,58 @@ body {
 	width:50%;
 }
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:320px) {
 	body {
-		font-size:14px;
+		font-size:12px;
 	}
 	
 	.tab {
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 5px 5px 0px 0px;
 	}
 }
 
-@media screen and (min-width:750px) {
+@media screen and (min-width:480px) {
 	body {
-		font-size:20px;
+		font-size:18px;
+	}
+	
+	.tab {
+		border-radius: 8px 8px 0px 0px;
 	}
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:540px) {
 	body {
-		font-size:24px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width:695px) {
+	body {
+		font-size:26px;
+	}
+
+	.tab {
+		border-radius: 11px 11px 0px 0px;
+	}
+}
+
+@media screen and (min-width:855px) {
+	body {
+		font-size:32px;
+	}
+
+	.tab {
+		border-radius: 13px 13px 0px 0px;
+	}
+}
+
+@media screen and (min-width:1015px) {
+	body {
+		font-size:38px;
 	}
 		
 	.tab {
-		border-radius: 15px 15px 0px 0px;
+		border-radius: 16px 16px 0px 0px;
 	}
 }
-

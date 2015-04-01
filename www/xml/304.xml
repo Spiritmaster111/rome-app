@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Santa Maria della Vittoria</naam>
+	<volgnummer>304</volgnummer>
+	<plaatje>www/img/object_images/304.png</plaatje>
+	<kaart>bestandnaam</kaart>
+	<info>
+De Basilica di Santa Maria della Vittoria is een kleine basiliek in Rome. De kerk staat in de wijk Della Vittoria aan de Via del XX Septembre.
+	</info>
+	<extrainfo>
+De bouw van de kerk startte in 1605 en de kerk werd gewijd aan de heilige Paulus. Na de katholieke overwinning in de Slag op de Witte Berg in 1620 werd de kerk gewijd aan de maagd Maria. Het gebouw is ontworpen door barokarchitect Carlo Maderno.
+
+De kerk is vooral beroemd vanwege het beeld dat Gian Lorenzo Bernini voor deze kerk maakte, de zogenaamde Extase van Teresa. Het beeld wordt beschouwd als een van zijn meesterwerken.
+	</extrainfo>
+</object>

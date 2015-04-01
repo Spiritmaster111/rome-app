@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+	<naam>Piazza Navona</naam>
+	<volgnummer>701</volgnummer>
+	<plaatje>www/img/object_images/701.png</plaatje>
+	<kaart>bestandnaam</kaart>
+	<info>
+De Piazza Navona ligt in een van de oudste buurten van Rome, de Campus Martius. Het Pantheon, dat gebouwd is in de eerste eeuw v.Chr., staat vlakbij.
+	</info>
+	<extrainfo>
+Keizer Domitianus (81 - 96) liet op deze plaats een groot stadion bouwen voor atletiekwedstrijden. Na de val van het Romeinse Rijk bouwden de Romeinse burgers huizen op de voormalige tribunes. De atletiekbaan zelf bleef onbebouwd en evolueerde in de loop der eeuwen tot een groot plein.
+
+In de 17e eeuw gaf paus Innocentius X de huidige vorm aan de Piazza Navona. Hij liet de kerk Sant'Agnese in Agone, een paleis en een grote fontein bouwen.
+
+Aan het plein staat de kerk Sant'Agnese in Agone die gebouwd werd door Francesco Borromini, de grote rivaal van Bernini in het 17de-eeuwse Rome. Ze geeft aanleiding tot verscheidene legendes over de Fontana dei Quattro Fiumi die er recht voor staat.
+
+<b>Fonteinen</b>
+De fontein werd gebouwd door Bernini en kreeg de naam La Fontana dei Quattro Fiumi. De vier beelden verwijzen naar vier grote rivieren, de Donau, de Ganges, de Nijl en de Rio de la Plata, en zitten aan de voet van de [obelisk].
+
+De tweede fontein is de Fontana del Moro (de Moor) van Giacomo della Porta.
+
+De derde fontein is de Fontana del Nettuno (Neptunusfontein) die ook is ontworpen door Giacomo della Porta. De Neptunusfiguur werd later toegevoegd omdat het plein niet symmetrisch was.
+	</extrainfo>
+</object>

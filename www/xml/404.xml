@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object>
-	<naam>Vaticaanse Musea</naam>
-	<volgnummer>404.2</volgnummer>
-	<plaatje>VaticaanseMusea</plaatje>
+	<naam>Via Giulia</naam>
+	<volgnummer>404</volgnummer>
+	<plaatje>www/img/object_images/404.png</plaatje>
 	<kaart>bestandnaam</kaart>
-	<!--
-		Voor <plaatje></plaatje> doe je de naam van het bestand.
-		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
-		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
-		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
-		Ook moeten alle plaatjes .png zijn.
-		Bij het copy pasten van deze template mag deze comment verwijderd worden.
-	-->
 	<info>
-		 De Vaticaanse Musea (Italiaans: I Musei Vaticani) is een groep musea in de Apostolische paleizen waarin de kunstschatten van het Vaticaan te bezichtigen zijn. Deze collectie is in de loop der eeuwen ontstaan doordat pausen kunstwerken aankochten, lieten vervaardigen of veroverden.
+De Via Giulia, gelegen in de wijk Castel Sant’Angelo, is een in Rome gelegen straat, die vernoemd werd naar paus Julius II. De aanleg van de straat was onderdeel van een stedenbouwkundig project, waarbij Julius een ring van wegen wilde laten aanleggen, die de beide oevers van de Tiber met elkaar verbonden via de Ponte Sisto, aangelegd in opdracht van paus Sixtus IV, de Via della Lungara en een nieuw te bouwen brug. Voor het project riep Julius de hulp in van Donato Bramante.
 	</info>
 	<extrainfo>
-		Onder paus Sixtus IV, tevens opdrachtgever tot de bouw van de Sixtijnse Kapel, werd de aanzet gegeven tot de bouw van het eerste museum. Dit museum werd gebouwd naar een ontwerp van Donato Bramante. Pas later werd de volle omvang van het bezit van de pausen duidelijk. De huidige musea, verdeeld in afdelingen, ontstonden pas in de 18e en 19e eeuw.
+De 1 kilometer lange Via Giulia is de langste rechte straat die werd aangelegd in Rome sinds de Oudheid en verbond de Ponte Sisto met het Vaticaan. Naast de functie van nieuwe verkeersader moesten langs de straat gebouwen opgetrokken worden die de bestuurlijke apparaten van de stad zouden huisvesten, waaronder het Palazzo dei Tribunali (rechtbank). Hoewel de straat zelf wel verwezenlijkt werd, vond de bouw van onder meer het Palazzo dei Tribunali niet plaats. Op de fundamenten van dit Palazzo bevindt zich nu een modern hotel.
 
-In de 'Salle delle Muse' bevindt zich de best bewaarde buste van Perikles en in de aansluitende zaal, de 'Salle degli Animale', bevindt zich een beeld van Meleager.
+In 2008 werd het feit gevierd, dat in 1508 begonnen was met de aanleg van de Via Giulia. De straat behoort tegenwoordig tot een van de exclusieve winkelstraten van Rome door de aanwezigheid van kunstgaleries en antiekwinkels.
 
-Op de 'Cortile e Belvedere', een binnenplaats, staat de Laocoön-groep. Paus Julius II kocht deze bij een opgraving in 1506 van een boer, waarna het een icoon voor de burgers van Rome werd. Deze beeldengroep heeft onder meer Michelangelo geïnspireerd bij het schilderen en beeldhouwen van zijn kronkelende lichamen.
+In de straat bevinden zich de volgende kerken:
+
+- San Giovanni dei Fiorentini: De kerk van de Florentijnse gemeenschap in Rome. De kerk is gewijd aan Johannes de Doper, patroonheilige van de stad Florence.
+- San Biagio della Pagnotta: De kerk van de Armeense gemeenschap
+- Santa Maria del Suffragio
+- San Filippo Neri: (alleen de gevel is hiervan over)
+- Santo Spirito dei Napoletani: De kerk van de Napolitaanse gemeenschap
+- Santa Caterina da Siena: De kerk van de gemeenschap uit Siena
+- Santa Maria dell’Orazione e Morte: In de crypte bevinden zich ruimtes die gedecoreerd zijn met menselijke botten
+
+Ook kan men hier het kantoor van de anti-maffiabrigade in Rome en het Museo Criminologico vinden.
+
+De Arco dei Farnesi, een boog die bedoeld was om de Villa Farnese te verbinden met het Palazzo Farnese, vormt nu slechts een decoratief element in het straatbeeld.
 	</extrainfo>
 </object>

@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object>
-	<naam>Sint Pieter</naam>
-	<volgnummer>403.2</volgnummer>
-	<plaatje>Sint Pieter</plaatje>
+	<naam>Palazzo Spada</naam>
+	<volgnummer>403</volgnummer>
+	<plaatje>www/img/object_images/403.png</plaatje>
 	<kaart>bestandnaam</kaart>
-	<!--
-		Voor <plaatje></plaatje> doe je de naam van het bestand.
-		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
-		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
-		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
-		Ook moeten alle plaatjes .png zijn.
-		Bij het copy pasten van deze template mag deze comment verwijderd worden.
-	-->
 	<info>
-		 De Sint-Pietersbasiliek (Italiaans: Basilica di San Pietro) is een katholieke kerk en basilica major aan het Sint-Pietersplein in Vaticaanstad. De kerk werd tussen 1506 en 1626 gebouwd in late renaissance - barokarchitectuur op de plaats van het vroegere Circus van Nero in Rome, waar volgens de overlevering de apostel en eerste Paus, Petrus, gekruisigd en begraven werd. Het is een belangrijk bedevaartsoord voor katholieken en geldt als de eerste van de zeven pelgrimskerken van Rome.
-
-De Sint-Pietersbasiliek was de grootste kerk ter wereld tot 1989, toen ze in grootte werd overtroffen door de Basilique Notre-Dame de la Paix, een kopie van de Sint-Pieter, in Yamoussoukro, de hoofdstad van Ivoorkust (zie Lijst van grootste kerken).
+Palazzo Spada is een bouwwerk gelegen op de Piazza Capodiferro 3 te Rome.
 	</info>
 	<extrainfo>
-		De grote koepel boven de graftombe van Petrus wordt omhooggehouden door vier enorme zuilen. Op sokkels in de voet van elk van deze zuilen staat een beeld van een heilige; met de klok mee vanaf linksonder zijn dat Sint Andreas, de Heilige Veronica, Sint Helena en Sint Longinus. De beelden van Veronica, Longinus en Andreas bevatten elk een belangrijk katholiek relikwie, respectievelijk de doek van Veronica, de speer die Christus doorboorde en een deel van het Kruis. Het voorwerp uit het beeld van Sint Helena, dier schedel, is overgedragen aan de oosters-orthodoxe kerk. Tegen de pijler die het beeld van Longinus bevat staat ook een bronzen beeld van Petrus, wiens voeten door veel bedevaartgangers gekust worden. Verder bevindt zich bij het beeld van Andreas ook een afgesloten ingang naar de catacomben onder de kerk, waar zich onder andere de tombes van Petrus en een aantal pausen bevinden.
+<b>Geschiedenis</b>
+Het bouwwerk werd midden de 16de eeuw gebouwd in opdracht van kardinaal Girolamo Capodiffero. De architecten Giulio Merisi, Giulio Mazzoni en Girolamo da Carpi stonden in voor de bouw. Het werd verbouwd door Francesco Borromini toen het gebouw in 1631 verkocht werd kardinaal Bernardino Spada. Het gebouw diende voor de kunstverzameling van de Familie Spada zowel Bernardino als zijn broer Virginio Spada als Fabrizio Spada als de erfenis van Orazio Spada brachten kunstwerken aan. Toen de Italiaanse staat het gebouw in 1927 kocht brachten zij de Raad van State er in onder.
+
+Momenteel huist het museum Galleria Spada in het gebouw.
 	</extrainfo>
 </object>

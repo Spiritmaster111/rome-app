@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object>
-	<naam>Torso del Belvedere</naam>
-	<volgnummer>410.2</volgnummer>
-	<plaatje>TorsoBelvedere</plaatje>
+	<naam>La Bocca della Verità</naam>
+	<volgnummer>410</volgnummer>
+	<plaatje>www/img/object_images/410.png</plaatje>
 	<kaart>bestandnaam</kaart>
-	<!--
-		Voor <plaatje></plaatje> doe je de naam van het bestand.
-		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
-		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
-		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
-		Ook moeten alle plaatjes .png zijn.
-		Bij het copy pasten van deze template mag deze comment verwijderd worden.
-	-->
 	<info>
-	Torso del Belvedere is een torso van een standbeeld. Deze torso wordt gezien als het voorbeeld voor beweging in een standbeeld.
+La Bocca della Verità (Nederlands, De Mond der Waarheid) is een beroemde gebeeldhouwde afbeelding van een menselijk hoofd bij de Piazza Bocca della Verità in Rome.
 	</info>
 	<extrainfo>
-		The Belvedere Torso is a fragment of a nude male statue, signed prominently on the front of the base by "Apollonios, son of Nestor, Athenian", who is unmentioned in ancient literature. It is now in the Museo Pio-Clementino (Inv. 1192) of the Vatican Museums. It is a marble torso. According to the Vatican Museums website "the most favoured hypothesis identifies it with Ajax, the son of Telamon, in the act of contemplating his suicide".[1]
+Het hoofd is afgebeeld op een grote marmeren schijf die stamt uit de Romeinse oudheid en vermoedelijk als onderdeel van een fontein of putdeksel gebruikt was. Het gezicht stelt waarschijnlijk een riviergod voor. Sinds de 17e eeuw staat La Bocca della Verità opgesteld in het voorportaal van de kerk Santa Maria in Cosmedin.
 
-The figure has traditionally been identified as a Heracles, seated on an animal skin, though in recent studies,[citation needed] the skin has been identified as that of a panther, not the Nemean lion, occasioning other identifications.
+De Mond der Waarheid staat bekend als een eeuwenoude leugendetector. Een middeleeuwse legende vertelt dat van ieder die zijn hand in de mond steekt en een leugen spreekt zijn hand afgebeten zal worden.
 
-It was once believed to be a 1st-century BC original,[2] but is now believed to be a copy from the 1st century BC or AD of an older statue, which probably dated to the early 2nd century BC. The statue's figure is portrayed seated on an animal hide; the exact figure represented remains open to debate (possibilities include Hercules, Polyphemus and Marsyas, among others).
+De Bocca is beroemd geworden met de film Roman Holiday uit 1953 waarin Joe, acteur Gregory Peck, zijn hand in de mond steekt en vervolgens doet alsof hij zijn hand echt verliest. Zijn tegenspeelster Audrey Hepburn schrikt hier hevig van en achteraf bleek dit niet te zijn gespeeld. Dit deel van de scène stond niet in het script en Peck heeft het geïmproviseerd, tot grote schrik van Hepburn die hier niet op had gerekend.
 
-The contorted pose of the torso and musculature were highly influential on late Renaissance, Mannerist, and Baroque artists, including Michelangelo and Raphael. Michelangelo's admiration of the Torso was widely known in his lifetime,[3] to the extent that the Torso gained the sobriquet, "The School of Michelangelo"[4]
+De Bocca speelt ook een grote rol in het kinderboek Het geheim van de afgebeten vingers van Rindert Kromthout.
 
-Legend has it that Pope Julius II requested that Michelangelo complete the statue fragment with arms, legs and a face. He respectfully declined, stating that it was too beautiful to be altered, and instead used it as the inspiration for several of the figures in the Sistine Chapel, including, but not limited to, the Sibyls and Prophets bordering the ceiling. The Belvedere Torso remains one of the few ancient sculptures admired in the 17th and 18th centuries whose reputation has not suffered in modern times.
+De Bocca della Verità is uitgegroeid tot een grote toeristische attractie in Rome. Op drukke dagen staan soms honderden mensen in de rij om hun hand in de mond te steken en de legende op waarheid te testen.
 	</extrainfo>
 </object>

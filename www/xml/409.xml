@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object>
-	<naam>Apoxyomenos</naam>
-	<volgnummer>409.2</volgnummer>
-	<plaatje>Apoxyomenos</plaatje>
+	<naam>Santa Maria in Cosmedin</naam>
+	<volgnummer>409</volgnummer>
+	<plaatje>www/img/object_images/409.png</plaatje>
 	<kaart>bestandnaam</kaart>
-	<!--
-		Voor <plaatje></plaatje> doe je de naam van het bestand.
-		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
-		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
-		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
-		Ook moeten alle plaatjes .png zijn.
-		Bij het copy pasten van deze template mag deze comment verwijderd worden.
-	-->
 	<info>
-	De Apoxyomenos is een standbeeld in Rome die een Athleet representeerd.
+De Basilica di Santa Maria in Cosmedin is een basiliek in Rome.
 	</info>
 	<extrainfo>
-		Apoxyomenos (the "Scraper") is one of the conventional subjects of ancient Greek votive sculpture; it represents an athlete, caught in the familiar act of scraping sweat and dust from his body with the small curved instrument that the Romans called a strigil.
+De driebeukige basiliek is in de 6e eeuw gebouwd op resten van een antiek gebouw, vermoedelijk de Ara Maxima Herculis. In de 8e eeuw werd de kerk door Paus Adrianus I aan Oost-Romeinse Grieken geschonken die gevlucht waren voor het iconoclasme. In deze periode is de basiliek uitgebreid met per schip een apsis. Uit deze tijd komt ook de met leeuwen versierde bisschopstroon.
 
-The most renowned Apoxyomenos in Classical Antiquity was that of Lysippos of Sikyon, the court sculptor of Alexander the Great, made ca 330 BCE. The bronze original is lost, but it is known from its description in Pliny the Elder's Natural History, which relates that the Roman general Marcus Vipsanius Agrippa installed Lysippos's masterpiece in the Baths of Agrippa that he erected in Rome, around 20 BCE. Later, the emperor Tiberius became so enamored of the figure that he had it removed to his bedroom.[1] However an uproar in the theatre, "Give us back our Apoxyomenos", shamed the emperor into replacing it.
+Onder Paus Calixtus II (12e eeuw) werd de kerk verder verbouwd en werden de voorhal, campanile toegevoegd evenals cosmatenkunst in het interieur.
 
-The sculpture is commonly represented by the Pentelic marble copy in the Museo Pio-Clementino in Rome, discovered in 1849 when it was excavated in Trastevere (illustration, right). Plaster casts of it soon found their way into national academy collections, and it is the standard version in textbooks. The sculpture, slightly larger than lifesize, is characteristic of the new canon of proportion pioneered by Lysippos, with a slightly smaller head (1:8 of the total height, rather than the 1:7 of Polykleitos) and longer and thinner limbs. Pliny notes a remark that Lysippos "used commonly to say" - that while other artists "made men as they really were, he made them as they appeared to be." Lysippus poses his subject in a true contrapposto, with an arm outstretched to create a sense of movement and interest from a range of viewing angles.
+In de barokperiode werd het interieur van de kerk wederom aangepast, maar de toevoegingen uit deze periode zijn eind 19e eeuw weer verwijderd waardoor de kerk nu een gaaf 12e-eeuwse indruk maakt.
+
+In het voorportaal hangt de beroemde La Bocca della Verità. Dit is een antieke marmeren schijf, met de afbeelding van een riviergod. Volgens een oude legende bijt de afgebeelde god de hand af van eenieder die zijn hand in de mond van de god doet en een leugen uitspreekt. Duizenden toeristen per jaar bezoeken de kerk om de legende op waarheid te testen.
 	</extrainfo>
 </object>

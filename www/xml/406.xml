@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object>
-	<naam>Sacrofagi di Constantina e S.Elena</naam>
-	<volgnummer>406.2</volgnummer>
-	<plaatje>SacrofagiDiConstantina</plaatje>
+	<naam>Basiliek van Santa Maria in Trastevere</naam>
+	<volgnummer>406</volgnummer>
+	<plaatje>www/img/object_images/406.png</plaatje>
 	<kaart>bestandnaam</kaart>
-	<!--
-		Voor <plaatje></plaatje> doe je de naam van het bestand.
-		Bijvoorbeeld als het bestand www/img/object_images/plaatjenaam.png is, vul je <plaatje>plaatjenaam</plaatje> in.
-		Zorg a.u.b. ook dat het plaatje inderdaad in die map staat omwille van de overzichtelijkheid.
-		Hetzelfde geld voor <kaart></kaart>, alleen dan graag de plaatjes in www/img/map_images doen.
-		Ook moeten alle plaatjes .png zijn.
-		Bij het copy pasten van deze template mag deze comment verwijderd worden.
-	-->
 	<info>
-	Santa Costanza is een kerk in Rome die gebouwd werd door de Romeinse keizer Constantijn de Grote in de eerste helft van de vierde eeuw. Het gebouw diende in eerste instantie als mausoleum voor Constantijns dochters Constantina en Helena. Later werd Constantina tot heilige verklaard en kreeg ze de Italiaanse naam Constanza en werd de kerk aan haar gewijd.
+De Basiliek van Santa Maria in Trastevere (Latijn: Sanctae Mariae trans Tiberim) is waarschijnlijk de oudste Mariakerk van Rome en vormt met het ervoor gelegen plein het centrum van de wijk Trastevere, ten westen van de Tiber.
 	</info>
 	<extrainfo>
-		De 'Bentvueghels', een gezelschap van kunstenaars afkomstig uit de Nederlanden, kwamen hier in de 17e eeuw regelmatig bij elkaar. Zij dachten dat de Santa Constanza oorspronkelijk aan de wijngod Bacchus was gewijd.
+Volgens de overleveringen van de vierde eeuw ontsprong op de plaats, waar tegenwoordig het altaar van de kerk staat, in het jaar 30 na Christus een olieachtige bron. Iets wat mogelijkerwijze als vulkanische activiteit verklaard kon worden, werd door de joodse inwoners van de wijk als een aankondiging van de Messias (=de Gezalfde) gezien. Reeds in de derde eeuw zou er een vroegchristelijke huiskerk gestaan hebben. Op dezelfde plaats liet paus Julius I in het midden van de vierde eeuw een grote basiliek bouwen, die in de twaalfde eeuw door paus Innocentius II door een nieuwbouw met campanile vervangen werd.
+
+De mozaïeken in de apsis stammen nog uit de twaalfde eeuw. De mozaïeken op de triomfboog en in het onderste gedeelte van de apsis werden een eeuw later door Pietro Cavallini gemaakt. Deze tonen beelden uit het leven van Maria: Maria geboorte, Maria boodschap, de Geboorte van Jezus, de Aanbidding der Wijzen, de Opdracht van Jezus in de Tempel en de Dood van Maria. Ze werden door kardinaal Pietro Stefaneschi gesticht, die zelf in de kerk een gotisch praalgraf heeft. Deze liet een beschrijving van het eerste heilige jaar 1300 na.
+
+Ondanks barokke verbouwingen en vervangingen heeft de kerk toch haar middeleeuwse karakter behouden. De zuilen komen uit een gebouw uit de oudheid, mogelijk uit de Thermen van Caracalla.
+
+In het heilig jaar 1525 diende de kerk als vervanging voor de door de Tiber overstroomde kerk van Sint-Paulus buiten de Muren. Het hoofdportaal diende als Heilige Deur.
+
+In het voorportaal van de kerk staan sinds 1308 op een hoge pilaster de resten van een asurn van paus Innocentius II. De mozaïeken uit het voorportaal stammen uit de dertiende en veertiende eeuw en stellen Maria met Jezus en de parabel van de dwaze en verstandige maagden voor (uit Mattheus 25, 1-13).
+
+Titelkardinaal van deze basiliek is sinds 22 februari 2014 Loris Capovilla.
 	</extrainfo>
 </object>

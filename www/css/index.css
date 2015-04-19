@@ -14,6 +14,7 @@ body {
 
 .page {
 	display:none;
+	padding:0px 0.2em;
 }
 
 #agenda {
@@ -21,7 +22,6 @@ body {
 }
 
 #sub-head {
-	position:fixed;
 	width:100%;
 	top:4em;
 	padding:0.5em;
@@ -35,7 +35,6 @@ body {
 }
 
 #head {
-	position:fixed;
 	background-image: linear-gradient(to bottom, #343434, #444444);
 	background-image:-webkit-linear-gradient(top, #343434 0%, #444444 51%);
     background-image:-ms-linear-gradient(top, #343434 0%, #444444 51%);
@@ -49,10 +48,6 @@ body {
 	padding:1em;
 	padding-bottom:0px;
 	width:100%;
-}
-
-#filler {
-	padding:3em;
 }
 
 .tab {
@@ -114,6 +109,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	height:15em;
+	width:auto;
 }
 
 #kaart img {

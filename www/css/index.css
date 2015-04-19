@@ -21,11 +21,21 @@ body {
 }
 
 #sub-head {
+	position:fixed;
+	width:100%;
+	top:4em;
 	padding:0.5em;
 	background-color:#666666;
 }
 
+#back {
+	display:none;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
 #head {
+	position:fixed;
 	background-image: linear-gradient(to bottom, #343434, #444444);
 	background-image:-webkit-linear-gradient(top, #343434 0%, #444444 51%);
     background-image:-ms-linear-gradient(top, #343434 0%, #444444 51%);
@@ -38,6 +48,11 @@ body {
     );
 	padding:1em;
 	padding-bottom:0px;
+	width:100%;
+}
+
+#filler {
+	padding:3em;
 }
 
 .tab {
@@ -57,6 +72,48 @@ body {
 	background-color:#666666;
 	color:black;
 	font-weight:bold;
+}
+
+.activity {
+	border-bottom:1px solid black;
+	padding:0 1em;
+	margin:0 1em;
+}
+
+.child {
+	border-bottom:1px solid black;
+	padding:0 1em;
+	margin:0 1em;
+	display:none;
+}
+
+.child p {
+	position:relative;
+	left:2em;
+}
+
+.activity.expanded {
+	font-weight:bold;
+}
+
+.activity p {
+	display:inline-block;
+}
+
+.expand {
+	float:right;
+}
+
+.info {
+	padding-bottom:1em;
+	border-bottom:1px solid black;
+}
+
+.plaatje {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:15em;
 }
 
 #kaart img {

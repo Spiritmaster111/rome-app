@@ -2,15 +2,28 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
+        <meta name="format-detection" content="telephone=yes" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta id="viewport" name="viewport" content="user-scalable=1, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <!--script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
-        <script type="text/javascript" src="js/jquery-1.11.2.js"></script-->
+        <script type="text/javascript">
+        	function openXML(xml) {
+    			if (window.XMLHttpRequest) {
+  					xmlhttp=new XMLHttpRequest();
+		  		}
+				else {
+		  			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  		}
+				xmlhttp.open("GET", "401.xml", false);
+				xmlhttp.send();
+				xmlDoc=xmlhttp.responseXML; 
+
+				return xmlDoc;
+			}
+        </script>
         <title>Rome App 2015</title>
     </head>
     <body id="body">
@@ -26,18 +39,90 @@
 			</div>
 		</div>
 		<div id="sub-head">
-			Dagagenda voor 3-14-2015
+			Dagagenda
+			<div id="back" onclick="app.pageSwitch(openedIMG)">
+				back
+			</div>
+		</div>
+		<div id="filler">
+			 
 		</div>
 		<div class="page" id="agenda">
-			<p>Bla Bla bla</p>
-			<p>paragraph</p>
+			
+			
+			<div class="activity" onclick="app.expand('0')">
+				<p>Vrijdag 24 april</p>
+				<p class="expand">></p>
+			</div>
+				<div class="child 0">
+					Bla
+				</div>
+				
+			<div class="activity" onclick="app.expand('1')">
+				<p>Zaterdag 25 april</p>
+				<p class="expand">></p>
+			</div>
+			
+			<div class="activity" onclick="app.expand('2')">
+				<p>Zondag 26 april</p>
+				<p class="expand">></p>
+			</div>
+			
+			<div class="activity" onclick="app.expand('3')">
+				<p>Maandag 27 april</p>
+				<p class="expand">></p>
+			</div>
+				<div class="child 3" onclick="app.pageSwitch('401')">
+					<p><em>Piazza Campo de Fiori</em></p>
+				</div>
+			
+			<div class="activity" onclick="app.expand('4')">
+				<p>Dinsdag 28 april</p>
+				<p class="expand">></p>
+			</div>
+			<div class="activity" onclick="app.expand('5')">
+				<p>Woensdag 29 april</p>
+				<p class="expand">></p>
+			</div>
+			<div class="activity" onclick="app.expand('6')">
+				<p>Donderdag 30 april</p>
+				<p class="expand">></p>
+			</div>
 		</div>
 		<div class="page" id="contact">
-			<p>06123455785432983452724</p>
+			<p><b>Hotel</b></p>
+			<p><i>Hotel Casali</i><br>Via G. Amendola 95<br>Roma<br>+39-06-486824</p>
+			
+			<p><b>Begeleiders</b></p>
+			<p><i>Van Egeraat</i><br>+31614735219</p>
+			<p><i>Van Gelder</i><br>+31612532913</p>
+			<p><i>Van der Wal</i><br>+31614981527</p>
+			<p><i>Barhorst</i><br>+31683231135</p>
 		</div>
 		<div class="page" id="kaart">
 			<img src="img/rome-map.png">
 		</div>
+		
+		
+		<div class="page" id="401">
+			<p class="naam"><h2><b>Piazza Campo de Fiori</b></h2></p>
+			<img class="plaatje" src="img/object_images/401.png" onclick="app.openIMG('401')">
+			<p class="info">
+				De Campo de' Fiori is een bekend plein in Rome. Deze piazza dankt zijn benaming niet aan de wekelijkse bloemenmarkt die er sinds de negentiende eeuw plaatsvindt, maar aan de oorspronkelijk weide in de Romeinse rione (wijk) Parione. Op het plein staat een standbeeld van Giordano Bruno, die hier in 1600 werd terechtgesteld.
+			</p>
+			<p class="extrainfo">
+				<b>Bekendheid</b>
+				<br />
+				<br /> plein is onder meer bekend van een film uit 1943 Campo de' fiori, onder regie van Mario Bonnard, met Anna Magnani en Aldo Fabrizi, waarin een tekenend beeld wordt geschetst van de sfeer rondom de pittoreske en levendige markt op dit plein.
+				<br />
+				<br /> speelde het plein een grote rol in het leven van kunstenaars, schrijvers en dichters uit Rome in de periode van de jaren 50 tot begin jaren 70. De schrijver Enzo Siciliano publiceerde in 1993 zijn memoires onder de titel Campo de' Fiori, waarin leven en dood van Pier Paolo Pasolini een belangrijke rol speelt.
+			</p>
+		</div>
+		<div id="img401" class="page">
+			<img src="img/object_images/401.png" class="big-img">
+		</div>
+		
+		
         <script type="text/javascript">
             app.initialize();
         </script>

@@ -7,6 +7,11 @@ var subHeadTxt = {
 	401: "Maandag 27 april - Piazza Campo de Fiori",
 	img401:"Maandag 27 april - Piazza Campo de Fiori"
 };
+var upperPage = {
+	imgkaart: "kaart",
+	401: "agenda",
+	img401: "401"
+};
 var app = {
 	
     // Application Constructor
@@ -20,7 +25,8 @@ var app = {
     //
     // Bind any events that are required on startup.
     bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        document.addEventListener('deviceready', app.onDeviceReady, false);
+        document.addEventListener("backbutton", app.onBackButton, false);
     },
     
     // deviceready Event Handler
@@ -31,12 +37,20 @@ var app = {
         currentPage = document.getElementById('agenda');
     },
     
+    onBackButton: function() {
+    	if (upperPage[currentPage.id]) {
+    		app.pageSwitch(upperPage[currentPage.id]);
+    	}
+    },
+    
     // Switch Pages
     //
     // Unloads current page and loads up new page.
     pageSwitch: function(page) {
     	var pageToLoad = document.getElementById(page);
+    	var head = document.getElementById('head');
     	var subHead = document.getElementById('sub-head');
+    	var filler = document.getElementById('filler');
     	var tabList = document.getElementsByClassName('tab');
     	var tab = document.getElementById('tab-' + page);
     	var viewport = document.getElementById('viewport');
@@ -53,6 +67,9 @@ var app = {
     		tab.className = "tab selected";
     	}
     	
+    	head.style.display = "block";
+    	subHead.style.display = "block";
+    	filler.style.display = "block";
     	subHead.innerHTML = subHeadTxt[page];
     	
     	currentPage = pageToLoad;
@@ -63,8 +80,14 @@ var app = {
     // Opens image page and allows zooming.
     openIMG: function(id) {
     	var viewport = document.getElementById('viewport');
+    	var head = document.getElementById('head');
+    	var subHead = document.getElementById('sub-head');
+    	var filler = document.getElementById('filler');
 
     	app.pageSwitch("img" + id);
+    	head.style.display = "none";
+    	subHead.style.display = "none";
+    	filler.style.display = "none";
     	viewport.content = "user-scalable=1, initial-scale=1, maximum-scale=10, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi";
     },
     

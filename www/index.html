@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/iscroll.js"></script>
+        <script type="text/javascript" src="js/iscroll-zoom.js"></script>
 		<script type="text/javascript">
 		
 		var myScroll = [];
@@ -26,7 +26,7 @@
 			}
 		}
 		
-		document.addEventListener('DOMContentLoaded', loaded, false);
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 		
 		</script>
         <title>Rome App 2015</title>
@@ -51,7 +51,69 @@
 		</div>
 		<div class="page" id="overzicht">
 			<div>
-				bla bla bla
+				<p>
+					<b>Vrijdag 24 april</b>
+					<br>5.45 - vertrek vanaf school per bus naar vliegveld Düsseldorf Vlucht 9:15 uur naar Rome (Fiumicino.)
+					<br>13.20 - Aankomst Rome
+					<br>16.00 - kennismaking Rome -S. Maria Maggiore; S. Prassede; S. Pudenziana; St. Pietro in Vincoli
+					<br>19.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Zaterdag 25 april</b>
+					<br>7.30 - ontbijt
+					<br>8.30 - Keizerfora; Forum Romanum; Palatijn;
+					<br>12.30 - lunch
+					<br>14.00 - Colosseum; S. Clemente; S. Giovanni in Laterano; Scala Santa
+					<br>19.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Zondag 26 april</b>
+					<br>7.30 - ontbijt
+					<br>9.00 - Museo Nazionale di Villa Giulia; Termen van Diocletainus; S. Maria delgi Angeli; S. Maria della Vittoria
+					<br>12.00 - "trein"; Ostia Antica; Scavi di Ostia Antica
+					<br>15.30 - verzamelen op het station Ostia Antica: "trein"; S. Paolo fuori le Mura (basilica, chiostro)
+					<br>19.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Maandag 27 april</b>
+					<br>7.30 - ontbijt
+					<br>9.00 - Piazza Campo di Fiori; theater van Pompeus; Palazzo Spada; Via Giulia; Villa Farnesina / botanische tuin; St. Maria in Trastevere;
+					<br>11.00 - pauze
+					<br>11.30 - Tibereiland; Cloaca; S. Maria in Cosmedin; Bocca della Verità; Teatro di Marcello; Foro Boario; Piazza Mettei (schildpaddenfontijn)
+					<br>13.30 - vrij / eventueel keuzeprogramma
+					<br>19.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Dinsdag 28 april</b>
+					<br>7.30 - ontbijt
+					<br>8.30 - Castel Sant'Angelo; Friezenkerk; Sint Pieter (evt. beklimmen koepel)
+					<br>12.30 - lunch
+					<br>14.40 - Vaticaanse Musea: Pigna, Sarcofagi di Constantina e S. Elena, Laocoonte, Apollo Belvedere, Apoxyomenos, Torse del Belvedere, Augusto di Prima Porta, Gallerie, Stanze di Raffaello, Cappella Sistina, Biblioteca, Ex-Lateranense of Pinacoteca
+					<br>19.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Woensdag 29 april</b>
+					<br>6.00? - ontbijt
+					<br>7.00 - vertrek naar Pompei
+					<br>13.00 - lunch
+					<br>20.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Donderdag 30 april</b>
+					<br>7.30 - ontbijt
+					<br>9.00 - Piazza Navona; Aca Pacis; St. Luigi dei Francesi; S.M. sopra Minerva; S. Ignazio; Gesù; Pantheon
+					<br>11.30 - lunch, Piazza del Popolo; S. Maria del Popolo; Pincio;
+					<br>13.00 - Villa Borghese (tweede groep 15.00)
+					<br>19.00 - cena, avondprogramma. 23.00 op de kamer en stilte!
+				</p>
+				<p>
+					<b>Vrijdag 1 mei</b>
+					<br>7.45 - ontbijt, vóór het ontbijt moeten de koffers ingepakt zijn
+					<br>8.30 - laatste blik op Rome
+					<br>9.30 - vertrek per bus naar vliegveld
+					<br>14.20 - vertrek vlucht naar Düsseldorf
+					<br>16:35 - aankomst vliegveld Düsseldorf. Vervoer per bus naar Leeuwarden
+				</p>
 			</div>
 		</div>
 		<div class="page" id="agenda">
@@ -280,7 +342,7 @@
 		</div>
 		<div class="page" id="imgkaart">
 			<div id="wrapper0">
-				<img src="img/rome-map.png" class="big-img" onclick="app.openIMG('kaart')">
+				<img src="img/rome-map.png" class="big-img">
 			</div>
 		</div>
 		

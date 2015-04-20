@@ -2,46 +2,56 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=yes" />
+        <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta id="viewport" name="viewport" content="user-scalable=1, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-        	function openXML(xml) {
-    			if (window.XMLHttpRequest) {
-  					xmlhttp=new XMLHttpRequest();
-		  		}
-				else {
-		  			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-		  		}
-				xmlhttp.open("GET", "401.xml", false);
-				xmlhttp.send();
-				xmlDoc=xmlhttp.responseXML; 
-
-				return xmlDoc;
+        <script type="text/javascript" src="js/iscroll-zoom.js"></script>
+		<script type="text/javascript">
+		
+		var myScroll = [];
+		
+		function loaded () {
+			for (i = 0; i < 57; i++) {
+				myScroll[i] = new IScroll('#wrapper' + i, {
+					zoom: true,
+					scrollX: true,
+					scrollY: true,
+					mouseWheel: true,
+					wheelAction: 'zoom'
+				});
 			}
-        </script>
+		}
+		
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+		
+		</script>
         <title>Rome App 2015</title>
     </head>
-    <body id="body">
+    <body id="body" onload="loaded()">
 		<div id="head">
-			<div class="tab selected" id="tab-agenda" onclick="app.pageSwitch('agenda')">
-				Agenda
+			<div class="tab selected" id="tab-overzicht" onclick="app.pageSwitch('overzicht')">
+				Overzicht
+			</div>
+			<div class="tab" id="tab-agenda" onclick="app.pageSwitch('agenda')">
+				Gebouwen
 			</div>
 			<div class="tab" id="tab-contact" onclick="app.pageSwitch('contact')">
 				Contact
 			</div>
-			<div class="tab" id="tab-kaart" onclick="app.pageSwitch('kaart')">
+			<div class="tab" id="tab-kaart" onclick="app.openIMG('kaart')">
 				Kaart
 			</div>
 		</div>
 		<div id="sub-head">
-			Dagagenda
-			<div id="back" onclick="app.pageSwitch(openedIMG)">
-				back
+			Programma met tijden
+		</div>
+		<div class="page" id="overzicht">
+			<div>
+				bla bla bla
 			</div>
 		</div>
 		<div class="page" id="agenda">
@@ -252,27 +262,26 @@
 		</div>
 		<div class="page" id="contact">
 			<p><b>Hotel</b></p>
-			<p><i>Hotel Casali</i><br>Via G. Amendola 95<br>Roma<br>+39-06-486824</p>
+			<p><i>Hotel Casali</i><br>Via G. Amendola 95<br>Roma<br><a href="tel:+39-06-486824">+39-06-486824</a></p>
 			
 			<p><b>School</b></p>
-			<p><i>Stedelijk Gymnasium PJ</i><br>+31588801200</p>
+			<p><i>Stedelijk Gymnasium PJ</i><br><a href="tel:+31588801200">+31588801200</a></p>
 			
 			<p><b>Reisbureau</b></p>
-			<p><i>Reisbureau Labrys</i><br>+31243603637<br>+31653696982 (in geval van nood)</p>
+			<p><i>Reisbureau Labrys</i><br><a href="tel:+31243603637">+31243603637</a><br><a href="tel:+31653696982">+31653696982</a> (in geval van nood)</p>
 			
 			<p><b>Begeleiders</b></p>
-			<p><i>Paula Bouwstra</i><br>+31628889637</p>
-			<p><i>Inez van Egeraat</i><br>+31614735219</p>
-			<p><i>Dennis Leegstra</i><br>+31621256320</p>
-			<p><i>Joop Tuinstra</i><br>+31683387219</p>
+			<p><i>Paula Bouwstra</i><br><a href="tel:+31628889637">+31628889637</a></p>
+			<p><i>Inez van Egeraat</i><br><a href="tel:+31614735219">+31614735219</a></p>
+			<p><i>Dennis Leegstra</i><br><a href="tel:+31621256320">+31621256320</a></p>
+			<p><i>Joop Tuinstra</i><br><a href="tel:+31683387219">+31683387219</a></p>
 			<p><i>Eelko Hooijmaaijers</i><br>heel hard roepen</p>
-			<p><i>Aukelien van der Meulen</i><br>+31613220043</p>
-		</div>
-		<div class="page" id="kaart">
-			<img src="img/rome-map.png" onclick="app.openIMG('kaart')">
+			<p><i>Aukelien van der Meulen</i><br><a href="tel:+31613220043">+31613220043</a></p>
 		</div>
 		<div class="page" id="imgkaart">
-			<img src="img/rome-map.png" class="big-img">
+			<div id="wrapper0">
+				<img src="img/rome-map.png" class="big-img" onclick="app.openIMG('kaart')">
+			</div>
 		</div>
 		
 		
@@ -308,7 +317,9 @@
 			</p>
 		</div>
 		<div id="img101" class="page">
-			<img src="img/object_images/101.png" class="big-img">
+			<div id="wrapper1">
+				<img src="img/object_images/101.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="102">
@@ -334,7 +345,9 @@
 			</p>
 		</div>
 		<div id="img102" class="page">
-			<img src="img/object_images/102.png" class="big-img">
+			<div id="wrapper2">
+				<img src="img/object_images/102.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="103">
@@ -350,7 +363,9 @@
 			</p>
 		</div>
 		<div id="img103" class="page">
-			<img src="img/object_images/103.png" class="big-img">
+			<div id="wrapper3">
+				<img src="img/object_images/103.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="104">
@@ -370,7 +385,9 @@
 			</p>
 		</div>
 		<div id="img104" class="page">
-			<img src="img/object_images/104.png" class="big-img">
+			<div id="wrapper4">
+				<img src="img/object_images/104.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="201">
@@ -400,7 +417,9 @@
 			</p>
 		</div>
 		<div id="img201" class="page">
-			<img src="img/object_images/201.png" class="big-img">
+			<div id="wrapper5">
+				<img src="img/object_images/201.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="202">
@@ -444,7 +463,9 @@
 			</p>
 		</div>
 		<div id="img202" class="page">
-			<img src="img/object_images/202.png" class="big-img">
+			<div id="wrapper6">
+				<img src="img/object_images/202.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="203">
@@ -474,7 +495,9 @@
 			</p>
 		</div>
 		<div id="img203" class="page">
-			<img src="img/object_images/203.png" class="big-img">
+			<div id="wrapper7">
+				<img src="img/object_images/203.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="204">
@@ -510,7 +533,9 @@
 			</p>
 		</div>
 		<div id="img204" class="page">
-			<img src="img/object_images/204.png" class="big-img">
+			<div id="wrapper8">
+				<img src="img/object_images/204.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="205">
@@ -535,7 +560,9 @@
 			</p>
 		</div>
 		<div id="img205" class="page">
-			<img src="img/object_images/205.png" class="big-img">
+			<div id="wrapper9">
+				<img src="img/object_images/205.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="206">
@@ -568,7 +595,9 @@
 			</p>
 		</div>
 		<div id="img206" class="page">
-			<img src="img/object_images/206.png" class="big-img">
+			<div id="wrapper10">
+				<img src="img/object_images/206.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="207">
@@ -595,7 +624,9 @@
 			</p>
 		</div>
 		<div id="img207" class="page">
-			<img src="img/object_images/207.png" class="big-img">
+			<div id="wrapper11">
+				<img src="img/object_images/207.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="301">
@@ -619,7 +650,9 @@
 			</p>
 		</div>
 		<div id="img301" class="page">
-			<img src="img/object_images/301.png" class="big-img">
+			<div id="wrapper12">
+				<img src="img/object_images/301.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="302">
@@ -668,7 +701,9 @@
 			</p>
 		</div>
 		<div id="img302" class="page">
-			<img src="img/object_images/302.png" class="big-img">
+			<div id="wrapper13">
+				<img src="img/object_images/302.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="303">
@@ -691,7 +726,9 @@
 			</p>
 		</div>
 		<div id="img303" class="page">
-			<img src="img/object_images/303.png" class="big-img">
+			<div id="wrapper14">
+				<img src="img/object_images/303.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="304">
@@ -706,7 +743,9 @@
 			</p>
 		</div>
 		<div id="img304" class="page">
-			<img src="img/object_images/304.png" class="big-img">
+			<div id="wrapper15">
+				<img src="img/object_images/304.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="305">
@@ -771,7 +810,9 @@
 			</p>
 		</div>
 		<div id="img305" class="page">
-			<img src="img/object_images/305.png" class="big-img">
+			<div id="wrapper16">
+				<img src="img/object_images/305.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="306">
@@ -794,7 +835,9 @@
 			</p>
 		</div>
 		<div id="img306" class="page">
-			<img src="img/object_images/306.png" class="big-img">
+			<div id="wrapper17">
+				<img src="img/object_images/306.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="401">
@@ -810,7 +853,9 @@
 			</p>
 		</div>
 		<div id="img401" class="page">
-			<img src="img/object_images/401.png" class="big-img">
+			<div id="wrapper18">
+				<img src="img/object_images/401.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="402">
@@ -845,7 +890,9 @@
 			</p>
 		</div>
 		<div id="img402" class="page">
-			<img src="img/object_images/402.png" class="big-img">
+			<div id="wrapper19">
+				<img src="img/object_images/402.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="403">
@@ -860,7 +907,9 @@
 			</p>
 		</div>
 		<div id="img403" class="page">
-			<img src="img/object_images/403.png" class="big-img">
+			<div id="wrapper20">
+				<img src="img/object_images/403.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="404">
@@ -885,7 +934,9 @@
 			</p>
 		</div>
 		<div id="img404" class="page">
-			<img src="img/object_images/404.png" class="big-img">
+			<div id="wrapper21">
+				<img src="img/object_images/404.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="405">
@@ -916,7 +967,9 @@
 			</p>
 		</div>
 		<div id="img405" class="page">
-			<img src="img/object_images/405.png" class="big-img">
+			<div id="wrapper56">
+				<img src="img/object_images/405.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="406">
@@ -935,7 +988,9 @@
 			</p>
 		</div>
 		<div id="img406" class="page">
-			<img src="img/object_images/406.png" class="big-img">
+			<div id="wrapper22">
+				<img src="img/object_images/406.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="407">
@@ -966,7 +1021,9 @@
 			</p>
 		</div>
 		<div id="img407" class="page">
-			<img src="img/object_images/407.png" class="big-img">
+			<div id="wrapper23">
+				<img src="img/object_images/407.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="408">
@@ -982,7 +1039,9 @@
 			</p>
 		</div>
 		<div id="img408" class="page">
-			<img src="img/object_images/408.png" class="big-img">
+			<div id="wrapper24">
+				<img src="img/object_images/408.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="409">
@@ -999,7 +1058,9 @@
 			</p>
 		</div>
 		<div id="img409" class="page">
-			<img src="img/object_images/409.png" class="big-img">
+			<div id="wrapper25">
+				<img src="img/object_images/409.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="410">
@@ -1017,7 +1078,9 @@
 			</p>
 		</div>
 		<div id="img410" class="page">
-			<img src="img/object_images/410.png" class="big-img">
+			<div id="wrapper26">
+				<img src="img/object_images/410.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="411">
@@ -1042,7 +1105,9 @@
 			</p>
 		</div>
 		<div id="img411" class="page">
-			<img src="img/object_images/411.png" class="big-img">
+			<div id="wrapper27">
+				<img src="img/object_images/411.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="412">
@@ -1063,7 +1128,9 @@
 			</p>
 		</div>
 		<div id="img412" class="page">
-			<img src="img/object_images/412.png" class="big-img">
+			<div id="wrapper28">
+				<img src="img/object_images/412.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="501">
@@ -1091,7 +1158,9 @@
 			</p>
 		</div>
 		<div id="img501" class="page">
-			<img src="img/object_images/501.png" class="big-img">
+			<div id="wrapper29">
+				<img src="img/object_images/501.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="502">
@@ -1113,7 +1182,9 @@
 			</p>
 		</div>
 		<div id="img502" class="page">
-			<img src="img/object_images/502.png" class="big-img">
+			<div id="wrapper30">
+				<img src="img/object_images/502.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="503">
@@ -1138,7 +1209,9 @@
 			</p>
 		</div>
 		<div id="img503" class="page">
-			<img src="img/object_images/503.png" class="big-img">
+			<div id="wrapper31">
+				<img src="img/object_images/503.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="504">
@@ -1198,7 +1271,9 @@
 			</p>
 		</div>
 		<div id="img504" class="page">
-			<img src="img/object_images/504.png" class="big-img">
+			<div id="wrapper32">
+				<img src="img/object_images/504.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="505">
@@ -1209,7 +1284,9 @@
 			</p>
 		</div>
 		<div id="img505" class="page">
-			<img src="img/object_images/505.png" class="big-img">
+			<div id="wrapper33">
+				<img src="img/object_images/505.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="506">
@@ -1223,7 +1300,9 @@
 			</p>
 		</div>
 		<div id="img506" class="page">
-			<img src="img/object_images/506.png" class="big-img">
+			<div id="wrapper34">
+				<img src="img/object_images/506.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="507">
@@ -1238,7 +1317,9 @@
 			</p>
 		</div>
 		<div id="img507" class="page">
-			<img src="img/object_images/507.png" class="big-img">
+			<div id="wrapper35">
+				<img src="img/object_images/507.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="508">
@@ -1253,7 +1334,9 @@
 			</p>
 		</div>
 		<div id="img508" class="page">
-			<img src="img/object_images/508.png" class="big-img">
+			<div id="wrapper36">
+				<img src="img/object_images/508.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="509">
@@ -1273,7 +1356,9 @@
 			</p>
 		</div>
 		<div id="img509" class="page">
-			<img src="img/object_images/509.png" class="big-img">
+			<div id="wrapper37">
+				<img src="img/object_images/509.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="510">
@@ -1284,7 +1369,9 @@
 			</p>
 		</div>
 		<div id="img510" class="page">
-			<img src="img/object_images/510.png" class="big-img">
+			<div id="wrapper38">
+				<img src="img/object_images/510.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="511">
@@ -1298,7 +1385,9 @@
 			</p>
 		</div>
 		<div id="img511" class="page">
-			<img src="img/object_images/511.png" class="big-img">
+			<div id="wrapper39">
+				<img src="img/object_images/511.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="512">
@@ -1313,7 +1402,9 @@
 			</p>
 		</div>
 		<div id="img512" class="page">
-			<img src="img/object_images/512.png" class="big-img">
+			<div id="wrapper40">
+				<img src="img/object_images/512.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="513">
@@ -1327,7 +1418,9 @@
 			</p>
 		</div>
 		<div id="img513" class="page">
-			<img src="img/object_images/513.png" class="big-img">
+			<div id="wrapper41">
+				<img src="img/object_images/513.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="514">
@@ -1413,7 +1506,9 @@
 			</p>
 		</div>
 		<div id="img514" class="page">
-			<img src="img/object_images/514.png" class="big-img">
+			<div id="wrapper42">
+				<img src="img/object_images/514.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="515">
@@ -1429,7 +1524,9 @@
 			</p>
 		</div>
 		<div id="img515" class="page">
-			<img src="img/object_images/515.png" class="big-img">
+			<div id="wrapper43">
+				<img src="img/object_images/515.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="601">
@@ -1497,7 +1594,9 @@
 			</p>
 		</div>
 		<div id="img601" class="page">
-			<img src="img/object_images/601.png" class="big-img">
+			<div id="wrapper44">
+				<img src="img/object_images/601.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="701">
@@ -1518,7 +1617,9 @@
 			</p>
 		</div>
 		<div id="img701" class="page">
-			<img src="img/object_images/701.png" class="big-img">
+			<div id="wrapper45">
+				<img src="img/object_images/701.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="702">
@@ -1567,7 +1668,9 @@
 			</p>
 		</div>
 		<div id="img702" class="page">
-			<img src="img/object_images/702.png" class="big-img">
+			<div id="wrapper46">
+				<img src="img/object_images/702.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="703">
@@ -1588,7 +1691,9 @@
 			</p>
 		</div>
 		<div id="img703" class="page">
-			<img src="img/object_images/703.png" class="big-img">
+			<div id="wrapper47">
+				<img src="img/object_images/703.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="704">
@@ -1613,7 +1718,9 @@
 			</p>
 		</div>
 		<div id="img704" class="page">
-			<img src="img/object_images/704.png" class="big-img">
+			<div id="wrapper48">
+				<img src="img/object_images/704.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="705">
@@ -1638,7 +1745,9 @@
 			</p>
 		</div>
 		<div id="img705" class="page">
-			<img src="img/object_images/705.png" class="big-img">
+			<div id="wrapper49">
+				<img src="img/object_images/705.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="706">
@@ -1664,7 +1773,9 @@
 			</p>
 		</div>
 		<div id="img706" class="page">
-			<img src="img/object_images/706.png" class="big-img">
+			<div id="wrapper50">
+				<img src="img/object_images/706.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="707">
@@ -1694,7 +1805,9 @@
 			</p>
 		</div>
 		<div id="img707" class="page">
-			<img src="img/object_images/707.png" class="big-img">
+			<div id="wrapper51">
+				<img src="img/object_images/707.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="708">
@@ -1716,7 +1829,9 @@
 			</p>
 		</div>
 		<div id="img708" class="page">
-			<img src="img/object_images/708.png" class="big-img">
+			<div id="wrapper52">
+				<img src="img/object_images/708.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="709">
@@ -1751,7 +1866,9 @@
 			</p>
 		</div>
 		<div id="img709" class="page">
-			<img src="img/object_images/709.png" class="big-img">
+			<div id="wrapper53">
+				<img src="img/object_images/709.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="710">
@@ -1767,7 +1884,9 @@
 			</p>
 		</div>
 		<div id="img710" class="page">
-			<img src="img/object_images/710.png" class="big-img">
+			<div id="wrapper54">
+				<img src="img/object_images/710.png" class="big-img">
+			</div>
 		</div>
 		
 		<div class="page" id="711">
@@ -1829,11 +1948,10 @@
 			</p>
 		</div>
 		<div id="img711" class="page">
-			<img src="img/object_images/711.png" class="big-img">
+			<div id="wrapper55">
+				<img src="img/object_images/711.png" class="big-img">
+			</div>
 		</div>
-		
-		
-		
 		
 		
         <script type="text/javascript">

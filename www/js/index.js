@@ -1,8 +1,9 @@
 var currentPage;
+var previousPage;
 var subHeadTxt = {
-	agenda: "Dagagenda voor 3-14-2015",
+	overzicht: "Programma met tijden",
+	agenda: "Informatie bij bezienswaardigheden",
 	contact: "Contactgegevens",
-	kaart: "Algemene kaart Rome",
 	101: "Vrijdag 24 april - Basiliek van Santa Maria Maggiore",
 	102: "Vrijdag 24 april - Santa Prassede",
 	103: "Vrijdag 24 april - Basiliek van Santa Pudenziana",
@@ -61,7 +62,7 @@ var subHeadTxt = {
 	711: "Donderdag 30 april - Villa Borghese"
 };
 var upperPage = {
-	imgkaart: "kaart",
+	imgkaart: "overzicht",
 	101: "agenda",
 	img101: "101",
 	102: "agenda",
@@ -196,12 +197,13 @@ var app = {
     //
     // Triggered when the device is ready.
     onDeviceReady: function() {
-      	app.setSizes();
-        currentPage = document.getElementById('agenda');
+        currentPage = document.getElementById('overzicht');
     },
     
     onBackButton: function() {
-    	if (upperPage[currentPage.id]) {
+    	if (currentPage.id == "imgkaart") {
+    		app.pageSwitch(previousPage.id);
+    	} else if (upperPage[currentPage.id]) {
     		app.pageSwitch(upperPage[currentPage.id]);
     	}
     },
@@ -215,18 +217,16 @@ var app = {
     	var subHead = document.getElementById('sub-head');
     	var tabList = document.getElementsByClassName('tab');
     	var tab = document.getElementById('tab-' + page);
-    	var viewport = document.getElementById('viewport');
     	
-    	viewport.content = "user-scalable=1, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi";
     	document.body.scrollTop = 0;
     	
     	currentPage.style.display = 'none';
     	pageToLoad.style.display = 'block';
     	
-    	for (i = 0; i <tabList.length; i++) {
-    		tabList[i].className = "tab";
-    	}
     	if (tab) {
+    		for (i = 0; i <tabList.length; i++) {
+    			tabList[i].className = "tab";
+    		}
     		tab.className = "tab selected";
     	}
     	
@@ -234,6 +234,7 @@ var app = {
     	subHead.style.display = "block";
     	subHead.innerHTML = subHeadTxt[page];
     	
+    	previousPage = currentPage;
     	currentPage = pageToLoad;
     },
     
@@ -241,31 +242,12 @@ var app = {
     //
     // Opens image page and allows zooming.
     openIMG: function(id) {
-    	var viewport = document.getElementById('viewport');
     	var head = document.getElementById('head');
     	var subHead = document.getElementById('sub-head');
 
     	app.pageSwitch("img" + id);
     	head.style.display = "none";
     	subHead.style.display = "none";
-    	viewport.content = "user-scalable=1, initial-scale=1, maximum-scale=10, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi";
-    },
-    
-    // Set Sizes
-    //
-    // Adjusts the size of 'page' divs to fill the entire screen and resizes zoomable images to fit the screen.
-    setSizes: function() {
-    	var height = screen.height;
-    	var width = screen.width;
-        var imgList = document.getElementsByClassName('big-img');
-		
-        for (i = 0; i < imgList.length; i++) {
-            if (imgList[i].height / imgList[i].width > height / width) {
-                imgList[i].height = height;
-            } else {
-                imgList[i].width = width;
-            }
-        }
     },
     
     // Expand Activity

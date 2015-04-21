@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.pjginformatica.rome-app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Rome App</name>
+    <name>Rome App 2015</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        De enige echte Rome App voor de 5e klassers uit jaarlaag 2014/2015. iOS wordt spijtig genoeg niet ondersteund.
     </description>
     <author>
         PJG Informatica Team 2015

@@ -2,7 +2,7 @@
 <widget id="com.pjginformatica.rome-app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Rome App 2015</name>
     <description>
-        De enige echte Rome App voor de 5e klassers uit jaarlaag 2014/2015. iOS wordt spijtig genoeg niet ondersteund. BELANGRIJK! Als je een scherm-dim app geïnstaleerd hebt, moet je deze tijdelijk uitschakelen om de rome app te instaleren. Als de rome app eenmaal geïnstaleerd is, kan je scherm-dim app gewoon weer aan.
+        De enige echte Rome App voor de 5e klassers uit jaarlaag 2014/2015. iOS wordt spijtig genoeg niet ondersteund. Bij het installeren zal de app vanwege een probleem met Phonegap vragen om een hele boel permissies. Hiervan wordt er echter geen één gebruikt en de rome app is dus ook offline gewoon bruikbaar. BELANGRIJK! Als je een scherm-dim app geïnstaleerd hebt, moet je deze tijdelijk uitschakelen om de rome app te installeren. Als de rome app eenmaal geïnstaleerd is, kan je scherm-dim app gewoon weer aan.
     </description>
     <author>
         PJG Informatica Team 2015
